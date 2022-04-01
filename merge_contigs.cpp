@@ -88,7 +88,7 @@ vector<const Match*> merge_full_matches(vector<const Match *> &selected_matches,
 {
   auto &new_set =assembly_sets[new_set_id];
 
-  map<Contig*,const Match*> debug_map;
+  
   
   vector<const Match*> other_matches;
   for(auto &m : selected_matches){
@@ -132,7 +132,7 @@ vector<const Match*> merge_full_matches(vector<const Match *> &selected_matches,
 
       m_contig[c1]=make_tuple(s,0,is_c1_reversed);
       m_contig[c2]=make_tuple(s,c1->size()-overlap, is_c2_reversed);
-      debug_map[s]=m;
+     
   }
 
   return other_matches;
@@ -212,6 +212,7 @@ void merge_match(AssemblySet &assembly_sets, MatchMatrix& matches, unsigned new_
   auto v=  merge_full_matches(selected_matches, assembly_sets, matches, trash, m_contig, new_set_id, set_id1, set_id2);
   merge_other_matches(v, trash, assembly_sets, matches, m_contig, new_set_id, set_id1, set_id2);
 
+  cout << "Update matches" << endl;
   // update other matches
   auto &new_set =assembly_sets[new_set_id];
   for(auto &a : matches){
@@ -303,6 +304,10 @@ void merge_algorithm(AssemblySet &assembly_sets, MatchMatrix &matches, map<strin
 	sj=p.first;
     }
     cout << "Merge " << si << " with " << sj << endl;
+    string new_set_name = si;
+    new_set_name.append("|");
+    new_set_name.append(sj);
+    ids[new_set_name]=new_id;
 
     merge_match(assembly_sets, matches, new_id, i ,j);
     

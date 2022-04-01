@@ -7,84 +7,83 @@
 using namespace std;
 
 
-  class Nuc : public array<unsigned,4>
+class Nuc //: //public array<unsigned char,4>
+{
+  unsigned char A : 2;
+  unsigned char T : 2;
+  unsigned char C : 2;
+  unsigned char G : 2;
+  friend Nuc operator+(const Nuc&, const Nuc &);
+    
+  Nuc() : A(0), T(0), C(0), G(0) {}
+  //array<unsigned char, 4>{{0,0,0,0}} {}
+    
+public:
+  Nuc(char c) : Nuc()
   {
-    friend Nuc operator+(const Nuc&, const Nuc &);
-    
-    Nuc() : array<unsigned int, 4>{{0,0,0,0}} {}
-    
-    public:
-    Nuc(char c) : Nuc()
-    {
-	*this=c; 
+    *this=c; 
+  }
+
+  void operator=(char c)
+  {
+    switch (c) {
+    case 'N':
+      A = A==4 ? 4 : A+1;
+      T = T==4 ? 4 : T+1;
+      C = C==4 ? 4 : C+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'A':
+      A = A==4 ? 4 : A+1;
+      break;
+    case 'T':
+      T = T==4 ? 4 : T+1;
+      break;
+    case 'C':
+      C = C==4 ? 4 : C+1;
+      break;
+    case 'G':
+      G = G==4 ? 4 : G+1;
+      break;
     }
+  }
 
-    void operator=(char c)
-      {
-	switch (c) {
-	case 'N':
-	  for(unsigned i=0; i<4;++i)
-	    (*this)[i]++;
-	  break;
-	case 'A':
-	  (*this)[0]++;
-	  break;
-	case 'T':
-	  (*this)[1]++;
-	  break;
-	case 'C':
-	  (*this)[2]++;
-	  break;
-	case 'G':
-	  (*this)[3]++;
-	  break;
-	}
-      }
+  bool operator==(const Nuc &n)
+  {
+    return A && n.A || T && n.T || C && n.C || G && n.G;
+  }
 
-    bool operator==(const Nuc &n)
-      {
-	for(size_t i =0; i<4;++i)
-	  if((*this)[i] && n[i])
-	    return true;
-	return false;
-      }
+  void operator+=(const Nuc&n)
+  {
+    A = A + n.A >4 ? 4 : A +n.A;
+    T = T + n.T >4 ? 4 : T +n.T;
+    C = C + n.C >4 ? 4 : C +n.C;
+    G = G + n.G >4 ? 4 : G +n.G;	
+  }
 
-    void operator+=(const Nuc&n)
-    {
-      for(size_t i =0; i<4;++i)
-	(*this)[i]+=n[i];
-    }
+  operator char() const
+  {
 
-    operator char() const
-    {
-      unsigned m=0;
-      for(unsigned i =1; i <4;i++)
-	if((*this)[i]>(*this)[m])
-	  m=i;
-      switch (m) {
-      case 0:
-	return 'A';
-	break;
-      case 1:
-	return 'T';
-	break;
-      case 2:
-	return 'C';
-	break;
-      default:
-	return 'G';
-	break;
-      }
-      
-    }
+    char m='A';
+    if(T>m)
+      m='T';
+    if(C>m)
+      m='C';
+    if(G>m)
+      m='G';
+    return m;
+  }
 
    
-  };               
+};               
 
-   Nuc operator+(const Nuc&n1, const Nuc &n2)
-    {
-      Nuc n;
-      for(size_t i =0; i<4;++i)
-	n[i]=n1[i]+n2[i];
-      return n;
-    }
+Nuc operator+(const Nuc&n1, const Nuc &n2)
+{
+  Nuc n;
+  n.A = n1.A + n2.A >4 ? 4 : n1.A +n2.A;
+  n.T = n1.T + n2.T >4 ? 4 : n1.T +n2.T;
+  n.C = n1.C + n2.C >4 ? 4 : n1.C +n2.C;
+  n.G = n1.G + n2.G >4 ? 4 : n1.G +n2.G;	
+
+  return n;
+}

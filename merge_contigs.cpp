@@ -295,7 +295,14 @@ void merge_algorithm(AssemblySet &assembly_sets, MatchMatrix &matches, map<strin
 	}
       }
 
-    //  cout << "Merge " << i << " with " << j << endl;
+    string si, sj;
+    for(auto &p : ids){
+      if(p.second==i)
+	si=p.first;
+      if(p.second==j)
+	sj=p.first;
+    }
+    cout << "Merge " << si << " with " << sj << endl;
 
     merge_match(assembly_sets, matches, new_id, i ,j);
     

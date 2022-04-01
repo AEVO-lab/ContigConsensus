@@ -73,6 +73,8 @@ int main(int argc, char *argv[])
   if(options.first)
     createMatchDirectory(options.second[1].c_str(), options.second[0].c_str(), ids);
   treatMatchDirectory(options.second[1].c_str(), assembly_sets, ids, matches);
+
+  std::cout << "Consensus construction" << std::endl;
   
   merge_algorithm(assembly_sets,matches,ids);
 

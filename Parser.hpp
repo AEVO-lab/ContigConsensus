@@ -19,6 +19,9 @@
 
 #define DEBUG false
 
+#define SEPARATOR_CHAR '!'
+#define SEPARATOR_STR "!"
+
 using namespace std;
 
 
@@ -40,8 +43,10 @@ void parseFastaFile(const char* fileName, unsigned set_id, AssemblySet &assembly
        
       // ignore commentary line
       //		file.ignore(numeric_limits<streamsize>::max(),'\n');
-      string name;
-      getline(file,name);
+      string line;
+      getline(file,line);
+
+      string name = line.substr(0,line.find_first_of(" \n"));
 
       int c;
       do {
@@ -192,8 +197,8 @@ void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
       continue;
 		
     cout << "Read match file: " << f_name <<"\n";
-    string s1 = f_name.substr(0,f_name.find_first_of('|'));
-    string s2 = f_name.substr(f_name.find_first_of('|')+1);
+    string s1 = f_name.substr(0,f_name.find_first_of(SEPARATOR_CHAR));
+    string s2 = f_name.substr(f_name.find_first_of(SEPARATOR_CHAR)+1);
     s2 = s2.substr(0,s2.find_first_of('.'));
 
     auto id1 = ids.find(s1);
@@ -240,7 +245,7 @@ void createMatchDirectory(const char *m_dirName,const char *f_dirName,map<string
       cmd_blast.append(m_dirName);
       cmd_blast.append("/");
       cmd_blast.append(it_a->first);
-      cmd_blast.append("|");
+      cmd_blast.append(SEPARATOR_STR);
       cmd_blast.append(it_b->first);
       cmd_blast.append(".txt\" -outfmt \"6 score qseqid qstart qend qlen sseqid sstart send slen\"");
       system(cmd_blast.c_str());

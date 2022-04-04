@@ -63,13 +63,17 @@ public:
 
   operator char() const
   {
-
     char m='A';
-    if(T>m)
+    char v=A;
+    if(T>v){
+      v=T;
       m='T';
-    if(C>m)
+    }
+    if(C>v){
+      v=C;
       m='C';
-    if(G>m)
+    }
+    if(G>v)
       m='G';
     return m;
   }

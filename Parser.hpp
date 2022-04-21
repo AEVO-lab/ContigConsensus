@@ -148,7 +148,7 @@ void parseMatches(const char * fileName, AssemblySet & assembly_sets, MatchMatri
 
 
 
-void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids)
+void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,bool only_read_names)
 {
   unsigned id=0;
   DIR* dir;
@@ -172,13 +172,13 @@ void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
     file.append("/");
     file.append(ent->d_name);
     ids[f_name.substr(0,f_name.find_last_of("."))]=id;
-    parseFastaFile(file.c_str(), id, assembly_sets);
+    if(!only_read_names) parseFastaFile(file.c_str(), id, assembly_sets);
     id++;
   }
 }
 
 
-void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,MatchMatrix &matches)
+void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,MatchMatrix &matches, bool display=true)
 {
   DIR* dir;
   struct dirent *ent;
@@ -196,19 +196,19 @@ void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
     if(f_name.substr(f_name.find_last_of(".")) != ".txt")
       continue;
 		
-    cout << "Read match file: " << f_name <<"\n";
+   
     string s1 = f_name.substr(0,f_name.find_first_of(SEPARATOR_CHAR));
     string s2 = f_name.substr(f_name.find_first_of(SEPARATOR_CHAR)+1);
     s2 = s2.substr(0,s2.find_first_of('.'));
 
     auto id1 = ids.find(s1);
     if(id1==ids.end()){
-      cout << "Error, there is no " << s1 <<".fasta file.\n Ignoring " << f_name << endl;
+      if(display) cout << "Error, there is no " << s1 <<".fasta file.\n Ignoring " << f_name << endl;
       continue;
     }
     auto id2 = ids.find(s2);
     if(id2==ids.end()){
-      cout << "Error, there is no " << s2 <<".fasta file.\n Ignoring " << f_name << endl;
+      if(display) cout << "Error, there is no " << s2 <<".fasta file.\n Ignoring " << f_name << endl;
       continue;
     }
     
@@ -217,6 +217,7 @@ void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
     file.append("/");
     file.append(ent->d_name);
 
+    cout << "Read match file: " << f_name <<"\n";
     if(id1->second<id2->second)
       parseMatches(file.c_str(), assembly_sets, matches,id1->second,id2->second);
     else parseMatches(file.c_str(), assembly_sets, matches,id2->second,id1->second);

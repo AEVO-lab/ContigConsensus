@@ -1,0 +1,525 @@
+((((((47|NODE_34_length_20368_cov_75.323980)|NODE_591_length_121_cov_120.575758)|NODE_594_length_116_cov_126.000000)|NODE_606_length_97_cov_158.404762)|NODE_11_length_100317_cov_74.606591)|249):
+name: 47 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_34_length_20368_cov_75.323980 file: staphyloccocus_aureus_spades_contigs position: 350 reversed
+name: NODE_591_length_121_cov_120.575758 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+name: NODE_594_length_116_cov_126.000000 file: staphyloccocus_aureus_spades_contigs position: 180 non-reversed
+name: NODE_606_length_97_cov_158.404762 file: staphyloccocus_aureus_spades_contigs position: 20786 non-reversed
+name: NODE_11_length_100317_cov_74.606591 file: staphyloccocus_aureus_spades_contigs position: 20884 reversed
+name: 249 file: staphyloccocus_aureus_minia_contigs position: 117276 non-reversed
+((((((NODE_10_length_101054_cov_67.036337|54)|137)|27)|150)|299)|91):
+name: NODE_10_length_101054_cov_67.036337 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 54 file: staphyloccocus_aureus_minia_contigs position: 37577 reversed
+name: 137 file: staphyloccocus_aureus_minia_contigs position: 76022 non-reversed
+name: 27 file: staphyloccocus_aureus_minia_contigs position: 83366 reversed
+name: 150 file: staphyloccocus_aureus_minia_contigs position: 97641 non-reversed
+name: 299 file: staphyloccocus_aureus_minia_contigs position: 34942 reversed
+name: 91 file: staphyloccocus_aureus_minia_contigs position: 66121 non-reversed
+(((((NODE_1_length_173602_cov_65.584378|51)|282)|210)|88)|134):
+name: NODE_1_length_173602_cov_65.584378 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 51 file: staphyloccocus_aureus_minia_contigs position: 7550 non-reversed
+name: 282 file: staphyloccocus_aureus_minia_contigs position: 60967 reversed
+name: 210 file: staphyloccocus_aureus_minia_contigs position: 113628 non-reversed
+name: 88 file: staphyloccocus_aureus_minia_contigs position: 128097 non-reversed
+name: 134 file: staphyloccocus_aureus_minia_contigs position: 174364 non-reversed
+((((119|NODE_87_length_921_cov_1.998845)|NODE_346_length_302_cov_2.004049)|NODE_315_length_329_cov_1.251825)|NODE_430_length_246_cov_2.513089):
+name: 119 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_87_length_921_cov_1.998845 file: staphyloccocus_aureus_spades_contigs position: 9689 non-reversed
+name: NODE_346_length_302_cov_2.004049 file: staphyloccocus_aureus_spades_contigs position: 2303 reversed
+name: NODE_315_length_329_cov_1.251825 file: staphyloccocus_aureus_spades_contigs position: 6713 reversed
+name: NODE_430_length_246_cov_2.513089 file: staphyloccocus_aureus_spades_contigs position: 5320 reversed
+((((220|NODE_95_length_826_cov_1.923476)|NODE_130_length_640_cov_1.982906)|NODE_607_length_97_cov_60.880952)|NODE_492_length_224_cov_1.550296):
+name: 220 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_95_length_826_cov_1.923476 file: staphyloccocus_aureus_spades_contigs position: 3450 non-reversed
+name: NODE_130_length_640_cov_1.982906 file: staphyloccocus_aureus_spades_contigs position: 1849 non-reversed
+name: NODE_607_length_97_cov_60.880952 file: staphyloccocus_aureus_spades_contigs position: 2504 reversed
+name: NODE_492_length_224_cov_1.550296 file: staphyloccocus_aureus_spades_contigs position: 4306 reversed
+((((73|NODE_294_length_349_cov_1.530612)|NODE_147_length_592_cov_1.424581)|NODE_545_length_211_cov_1.153846)|NODE_359_length_291_cov_1.716102):
+name: 73 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_294_length_349_cov_1.530612 file: staphyloccocus_aureus_spades_contigs position: 12005 non-reversed
+name: NODE_147_length_592_cov_1.424581 file: staphyloccocus_aureus_spades_contigs position: 22040 reversed
+name: NODE_545_length_211_cov_1.153846 file: staphyloccocus_aureus_spades_contigs position: 21393 non-reversed
+name: NODE_359_length_291_cov_1.716102 file: staphyloccocus_aureus_spades_contigs position: 4380 reversed
+(((152|NODE_44_length_4122_cov_76.358741)|NODE_100_length_797_cov_73.153639)|267):
+name: 152 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_44_length_4122_cov_76.358741 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+name: NODE_100_length_797_cov_73.153639 file: staphyloccocus_aureus_spades_contigs position: 4234 reversed
+name: 267 file: staphyloccocus_aureus_minia_contigs position: 4994 non-reversed
+(((175|NODE_635_length_59_cov_64.000000)|((NODE_21_length_51528_cov_61.117498|132)|169))|354):
+name: 175 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_635_length_59_cov_64.000000 file: staphyloccocus_aureus_spades_contigs position: 2492 reversed
+name: NODE_21_length_51528_cov_61.117498 file: staphyloccocus_aureus_spades_contigs position: 2645 reversed
+name: 132 file: staphyloccocus_aureus_minia_contigs position: 4746 non-reversed
+name: 169 file: staphyloccocus_aureus_minia_contigs position: 14052 reversed
+name: 354 file: staphyloccocus_aureus_minia_contigs position: 53398 non-reversed
+(((211|NODE_166_length_549_cov_1.439271)|NODE_343_length_303_cov_1.883065)|NODE_565_length_206_cov_1.788079):
+name: 211 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_166_length_549_cov_1.439271 file: staphyloccocus_aureus_spades_contigs position: 17844 non-reversed
+name: NODE_343_length_303_cov_1.883065 file: staphyloccocus_aureus_spades_contigs position: 11867 reversed
+name: NODE_565_length_206_cov_1.788079 file: staphyloccocus_aureus_spades_contigs position: 13347 reversed
+(((310|NODE_256_length_390_cov_43.964179)|((NODE_13_length_74493_cov_55.648284|(16|NODE_23_length_50598_cov_74.890212))|281))|337):
+name: 310 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_256_length_390_cov_43.964179 file: staphyloccocus_aureus_spades_contigs position: 272 non-reversed
+name: NODE_13_length_74493_cov_55.648284 file: staphyloccocus_aureus_spades_contigs position: 666 reversed
+name: 16 file: staphyloccocus_aureus_minia_contigs position: 16254 non-reversed
+name: NODE_23_length_50598_cov_74.890212 file: staphyloccocus_aureus_spades_contigs position: 16289 reversed
+name: 281 file: staphyloccocus_aureus_minia_contigs position: 61078 reversed
+name: 337 file: staphyloccocus_aureus_minia_contigs position: 75093 non-reversed
+(((43|NODE_125_length_686_cov_2.226624)|NODE_421_length_250_cov_3.000000)|NODE_364_length_288_cov_1.532189):
+name: 43 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_125_length_686_cov_2.226624 file: staphyloccocus_aureus_spades_contigs position: 12062 non-reversed
+name: NODE_421_length_250_cov_3.000000 file: staphyloccocus_aureus_spades_contigs position: 10510 reversed
+name: NODE_364_length_288_cov_1.532189 file: staphyloccocus_aureus_spades_contigs position: 13374 reversed
+(((NODE_12_length_76553_cov_75.178593|153)|90)|82):
+name: NODE_12_length_76553_cov_75.178593 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 153 file: staphyloccocus_aureus_minia_contigs position: 18302 non-reversed
+name: 90 file: staphyloccocus_aureus_minia_contigs position: 58377 reversed
+name: 82 file: staphyloccocus_aureus_minia_contigs position: 76456 non-reversed
+(((NODE_28_length_41714_cov_73.753739|304)|((30|NODE_37_length_15298_cov_72.131142)|NODE_429_length_247_cov_1.406250))|NODE_27_length_42568_cov_71.925834):
+name: NODE_28_length_41714_cov_73.753739 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 304 file: staphyloccocus_aureus_minia_contigs position: 11 non-reversed
+name: 30 file: staphyloccocus_aureus_minia_contigs position: 9161 non-reversed
+name: NODE_37_length_15298_cov_72.131142 file: staphyloccocus_aureus_spades_contigs position: 42489 non-reversed
+name: NODE_429_length_247_cov_1.406250 file: staphyloccocus_aureus_spades_contigs position: 58450 reversed
+name: NODE_27_length_42568_cov_71.925834 file: staphyloccocus_aureus_spades_contigs position: 58712 reversed
+((111|NODE_50_length_2306_cov_55.698356)|((((((((((((NODE_5_length_135787_cov_56.588719|123)|191)|173)|186)|139)|323)|170)|58)|297)|238)|87)|339)):
+name: 111 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_50_length_2306_cov_55.698356 file: staphyloccocus_aureus_spades_contigs position: 310 reversed
+name: NODE_5_length_135787_cov_56.588719 file: staphyloccocus_aureus_spades_contigs position: 152 reversed
+name: 123 file: staphyloccocus_aureus_minia_contigs position: 52456 non-reversed
+name: 191 file: staphyloccocus_aureus_minia_contigs position: 99161 reversed
+name: 173 file: staphyloccocus_aureus_minia_contigs position: 117636 non-reversed
+name: 186 file: staphyloccocus_aureus_minia_contigs position: 27595 reversed
+name: 139 file: staphyloccocus_aureus_minia_contigs position: 11078 non-reversed
+name: 323 file: staphyloccocus_aureus_minia_contigs position: 85608 reversed
+name: 170 file: staphyloccocus_aureus_minia_contigs position: 86696 non-reversed
+name: 58 file: staphyloccocus_aureus_minia_contigs position: 3018 reversed
+name: 297 file: staphyloccocus_aureus_minia_contigs position: 111107 non-reversed
+name: 238 file: staphyloccocus_aureus_minia_contigs position: 49537 reversed
+name: 87 file: staphyloccocus_aureus_minia_contigs position: 130552 non-reversed
+name: 339 file: staphyloccocus_aureus_minia_contigs position: 50511 reversed
+((141|NODE_20_length_54160_cov_70.821939)|165):
+name: 141 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_20_length_54160_cov_70.821939 file: staphyloccocus_aureus_spades_contigs position: 119 reversed
+name: 165 file: staphyloccocus_aureus_minia_contigs position: 30610 non-reversed
+((177|NODE_109_length_744_cov_2.444122)|NODE_441_length_243_cov_2.632979):
+name: 177 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_109_length_744_cov_2.444122 file: staphyloccocus_aureus_spades_contigs position: 1103 reversed
+name: NODE_441_length_243_cov_2.632979 file: staphyloccocus_aureus_spades_contigs position: 651 non-reversed
+((183|NODE_36_length_15671_cov_76.358991)|145):
+name: 183 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_36_length_15671_cov_76.358991 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 145 file: staphyloccocus_aureus_minia_contigs position: 15650 non-reversed
+((190|NODE_295_length_348_cov_2.341297)|((((((((NODE_7_length_127185_cov_69.622206|149)|69)|74)|59)|270)|101)|324)|95)):
+name: 190 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_295_length_348_cov_2.341297 file: staphyloccocus_aureus_spades_contigs position: 1971 non-reversed
+name: NODE_7_length_127185_cov_69.622206 file: staphyloccocus_aureus_spades_contigs position: 2566 non-reversed
+name: 149 file: staphyloccocus_aureus_minia_contigs position: 89979 non-reversed
+name: 69 file: staphyloccocus_aureus_minia_contigs position: 43857 non-reversed
+name: 74 file: staphyloccocus_aureus_minia_contigs position: 13991 non-reversed
+name: 59 file: staphyloccocus_aureus_minia_contigs position: 76935 non-reversed
+name: 270 file: staphyloccocus_aureus_minia_contigs position: 30455 non-reversed
+name: 101 file: staphyloccocus_aureus_minia_contigs position: 73292 non-reversed
+name: 324 file: staphyloccocus_aureus_minia_contigs position: 41377 non-reversed
+name: 95 file: staphyloccocus_aureus_minia_contigs position: 129627 non-reversed
+((209|NODE_31_length_31037_cov_72.292428)|246):
+name: 209 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_31_length_31037_cov_72.292428 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 246 file: staphyloccocus_aureus_minia_contigs position: 28521 non-reversed
+((20|NODE_534_length_213_cov_1.424051)|NODE_626_length_72_cov_75.705882):
+name: 20 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_534_length_213_cov_1.424051 file: staphyloccocus_aureus_spades_contigs position: 7690 reversed
+name: NODE_626_length_72_cov_75.705882 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+((21|NODE_604_length_99_cov_63.159091)|(NODE_4_length_148556_cov_75.287796|369)):
+name: 21 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_604_length_99_cov_63.159091 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: NODE_4_length_148556_cov_75.287796 file: staphyloccocus_aureus_spades_contigs position: 139 non-reversed
+name: 369 file: staphyloccocus_aureus_minia_contigs position: 101730 non-reversed
+((228|NODE_282_length_363_cov_1.461039)|NODE_470_length_232_cov_0.943503):
+name: 228 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_282_length_363_cov_1.461039 file: staphyloccocus_aureus_spades_contigs position: 12604 reversed
+name: NODE_470_length_232_cov_0.943503 file: staphyloccocus_aureus_spades_contigs position: 13038 reversed
+((232|NODE_45_length_3496_cov_70.904969)|NODE_279_length_365_cov_150.719355):
+name: 232 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_45_length_3496_cov_70.904969 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+name: NODE_279_length_365_cov_150.719355 file: staphyloccocus_aureus_spades_contigs position: 3701 non-reversed
+((261|NODE_149_length_584_cov_2.037807)|NODE_483_length_226_cov_2.368421):
+name: 261 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_149_length_584_cov_2.037807 file: staphyloccocus_aureus_spades_contigs position: 176 non-reversed
+name: NODE_483_length_226_cov_2.368421 file: staphyloccocus_aureus_spades_contigs position: 1432 reversed
+((265|NODE_47_length_3036_cov_82.849379)|313):
+name: 265 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_47_length_3036_cov_82.849379 file: staphyloccocus_aureus_spades_contigs position: 124 non-reversed
+name: 313 file: staphyloccocus_aureus_minia_contigs position: 2371 non-reversed
+((351|NODE_561_length_207_cov_77.256579)|((NODE_19_length_61375_cov_76.255072|118)|9)):
+name: 351 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_561_length_207_cov_77.256579 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+name: NODE_19_length_61375_cov_76.255072 file: staphyloccocus_aureus_spades_contigs position: 29 non-reversed
+name: 118 file: staphyloccocus_aureus_minia_contigs position: 3561 non-reversed
+name: 9 file: staphyloccocus_aureus_minia_contigs position: 44945 non-reversed
+((353|NODE_62_length_1283_cov_2.071661)|NODE_596_length_116_cov_61.098361):
+name: 353 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_62_length_1283_cov_2.071661 file: staphyloccocus_aureus_spades_contigs position: 887 reversed
+name: NODE_596_length_116_cov_61.098361 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+((361|(((((NODE_9_length_121947_cov_62.623240|23)|189)|255)|234)|349))|333):
+name: 361 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_9_length_121947_cov_62.623240 file: staphyloccocus_aureus_spades_contigs position: 14 non-reversed
+name: 23 file: staphyloccocus_aureus_minia_contigs position: 44132 non-reversed
+name: 189 file: staphyloccocus_aureus_minia_contigs position: 11131 non-reversed
+name: 255 file: staphyloccocus_aureus_minia_contigs position: 88736 non-reversed
+name: 234 file: staphyloccocus_aureus_minia_contigs position: 116246 non-reversed
+name: 349 file: staphyloccocus_aureus_minia_contigs position: 2666 non-reversed
+name: 333 file: staphyloccocus_aureus_minia_contigs position: 121904 non-reversed
+((76|NODE_49_length_2486_cov_75.087207)|((((NODE_6_length_134371_cov_74.456788|2)|(68|NODE_35_length_20333_cov_73.438110))|256)|216)):
+name: 76 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_49_length_2486_cov_75.087207 file: staphyloccocus_aureus_spades_contigs position: 465 reversed
+name: NODE_6_length_134371_cov_74.456788 file: staphyloccocus_aureus_spades_contigs position: 44 non-reversed
+name: 2 file: staphyloccocus_aureus_minia_contigs position: 6636 non-reversed
+name: 68 file: staphyloccocus_aureus_minia_contigs position: 98087 non-reversed
+name: NODE_35_length_20333_cov_73.438110 file: staphyloccocus_aureus_spades_contigs position: 98477 reversed
+name: 256 file: staphyloccocus_aureus_minia_contigs position: 91119 non-reversed
+name: 216 file: staphyloccocus_aureus_minia_contigs position: 126720 non-reversed
+((NODE_133_length_635_cov_311.337931|86)|329):
+name: NODE_133_length_635_cov_311.337931 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 86 file: staphyloccocus_aureus_minia_contigs position: 103 non-reversed
+name: 329 file: staphyloccocus_aureus_minia_contigs position: 545 non-reversed
+((NODE_135_length_630_cov_146.641739|215)|124):
+name: NODE_135_length_630_cov_146.641739 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 215 file: staphyloccocus_aureus_minia_contigs position: 310 reversed
+name: 124 file: staphyloccocus_aureus_minia_contigs position: 380 non-reversed
+((NODE_17_length_63733_cov_74.388329|85)|302):
+name: NODE_17_length_63733_cov_74.388329 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 85 file: staphyloccocus_aureus_minia_contigs position: 31965 non-reversed
+name: 302 file: staphyloccocus_aureus_minia_contigs position: 56156 non-reversed
+((NODE_18_length_62584_cov_75.127525|98)|48):
+name: NODE_18_length_62584_cov_75.127525 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 98 file: staphyloccocus_aureus_minia_contigs position: 23015 non-reversed
+name: 48 file: staphyloccocus_aureus_minia_contigs position: 169 non-reversed
+((NODE_22_length_50958_cov_72.299236|35)|242):
+name: NODE_22_length_50958_cov_72.299236 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 35 file: staphyloccocus_aureus_minia_contigs position: 1968 non-reversed
+name: 242 file: staphyloccocus_aureus_minia_contigs position: 50903 non-reversed
+((NODE_24_length_49524_cov_72.004387|42)|17):
+name: NODE_24_length_49524_cov_72.004387 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 42 file: staphyloccocus_aureus_minia_contigs position: 17368 non-reversed
+name: 17 file: staphyloccocus_aureus_minia_contigs position: 40419 non-reversed
+((NODE_26_length_44135_cov_72.772799|8)|50):
+name: NODE_26_length_44135_cov_72.772799 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 8 file: staphyloccocus_aureus_minia_contigs position: 10061 non-reversed
+name: 50 file: staphyloccocus_aureus_minia_contigs position: 36925 non-reversed
+((NODE_41_length_5803_cov_57.598817|237)|346):
+name: NODE_41_length_5803_cov_57.598817 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 237 file: staphyloccocus_aureus_minia_contigs position: 737 non-reversed
+name: 346 file: staphyloccocus_aureus_minia_contigs position: 3231 non-reversed
+((NODE_48_length_2582_cov_75.743965|350)|342):
+name: NODE_48_length_2582_cov_75.743965 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 350 file: staphyloccocus_aureus_minia_contigs position: 422 non-reversed
+name: 342 file: staphyloccocus_aureus_minia_contigs position: 1011 non-reversed
+(102|NODE_175_length_520_cov_1.554839):
+name: 102 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_175_length_520_cov_1.554839 file: staphyloccocus_aureus_spades_contigs position: 4538 reversed
+(103|NODE_577_length_145_cov_66.055556):
+name: 103 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_577_length_145_cov_66.055556 file: staphyloccocus_aureus_spades_contigs position: 2 non-reversed
+(104|NODE_531_length_213_cov_151.765823):
+name: 104 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_531_length_213_cov_151.765823 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(107|((NODE_14_length_74260_cov_76.371201|46)|340)):
+name: 107 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_14_length_74260_cov_76.371201 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 46 file: staphyloccocus_aureus_minia_contigs position: 17031 non-reversed
+name: 340 file: staphyloccocus_aureus_minia_contigs position: 16902 non-reversed
+(109|NODE_630_length_69_cov_210.642857):
+name: 109 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_630_length_69_cov_210.642857 file: staphyloccocus_aureus_spades_contigs position: 51 reversed
+(113|NODE_641_length_56_cov_255.000000):
+name: 113 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_641_length_56_cov_255.000000 file: staphyloccocus_aureus_spades_contigs position: 41 reversed
+(116|NODE_634_length_60_cov_154.800000):
+name: 116 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_634_length_60_cov_154.800000 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+(127|(((NODE_29_length_40353_cov_72.293538|31)|378)|(244|NODE_572_length_176_cov_76.256198))):
+name: 127 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_29_length_40353_cov_72.293538 file: staphyloccocus_aureus_spades_contigs position: 272 non-reversed
+name: 31 file: staphyloccocus_aureus_minia_contigs position: 5224 non-reversed
+name: 378 file: staphyloccocus_aureus_minia_contigs position: 39617 non-reversed
+name: 244 file: staphyloccocus_aureus_minia_contigs position: 40260 non-reversed
+name: NODE_572_length_176_cov_76.256198 file: staphyloccocus_aureus_spades_contigs position: 40385 non-reversed
+(12|NODE_620_length_74_cov_299.894737):
+name: 12 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_620_length_74_cov_299.894737 file: staphyloccocus_aureus_spades_contigs position: 56 non-reversed
+(138|NODE_380_length_273_cov_2.270642):
+name: 138 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_380_length_273_cov_2.270642 file: staphyloccocus_aureus_spades_contigs position: 6973 reversed
+(13|NODE_585_length_126_cov_228.478873):
+name: 13 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_585_length_126_cov_228.478873 file: staphyloccocus_aureus_spades_contigs position: 55 non-reversed
+(147|NODE_613_length_83_cov_65.178571):
+name: 147 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_613_length_83_cov_65.178571 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+(14|((NODE_30_length_38422_cov_77.105533|133)|92)):
+name: 14 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_30_length_38422_cov_77.105533 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 133 file: staphyloccocus_aureus_minia_contigs position: 37952 non-reversed
+name: 92 file: staphyloccocus_aureus_minia_contigs position: 38226 non-reversed
+(15|NODE_335_length_311_cov_1.781250):
+name: 15 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_335_length_311_cov_1.781250 file: staphyloccocus_aureus_spades_contigs position: 1670 reversed
+(161|NODE_286_length_357_cov_1.801325):
+name: 161 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_286_length_357_cov_1.801325 file: staphyloccocus_aureus_spades_contigs position: 8999 reversed
+(163|NODE_625_length_72_cov_138.000000):
+name: 163 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_625_length_72_cov_138.000000 file: staphyloccocus_aureus_spades_contigs position: 2 non-reversed
+(176|NODE_471_length_231_cov_2.301136):
+name: 176 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_471_length_231_cov_2.301136 file: staphyloccocus_aureus_spades_contigs position: 4023 non-reversed
+(194|((((((NODE_3_length_148798_cov_61.190839|241)|185)|167)|75)|245)|260)):
+name: 194 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_3_length_148798_cov_61.190839 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 241 file: staphyloccocus_aureus_minia_contigs position: 75491 non-reversed
+name: 185 file: staphyloccocus_aureus_minia_contigs position: 20737 non-reversed
+name: 167 file: staphyloccocus_aureus_minia_contigs position: 136078 non-reversed
+name: 75 file: staphyloccocus_aureus_minia_contigs position: 35011 non-reversed
+name: 245 file: staphyloccocus_aureus_minia_contigs position: 10975 non-reversed
+name: 260 file: staphyloccocus_aureus_minia_contigs position: 110979 non-reversed
+(200|NODE_464_length_233_cov_1.410112):
+name: 200 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_464_length_233_cov_1.410112 file: staphyloccocus_aureus_spades_contigs position: 7041 non-reversed
+(201|NODE_583_length_132_cov_57.961039):
+name: 201 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_583_length_132_cov_57.961039 file: staphyloccocus_aureus_spades_contigs position: 382 reversed
+(202|NODE_369_length_283_cov_127.754386):
+name: 202 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_369_length_283_cov_127.754386 file: staphyloccocus_aureus_spades_contigs position: 13 non-reversed
+(212|NODE_566_length_206_cov_1.788079):
+name: 212 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_566_length_206_cov_1.788079 file: staphyloccocus_aureus_spades_contigs position: 4268 non-reversed
+(214|NODE_40_length_6509_cov_72.021692):
+name: 214 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_40_length_6509_cov_72.021692 file: staphyloccocus_aureus_spades_contigs position: 35 reversed
+(223|NODE_379_length_273_cov_2.683486):
+name: 223 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_379_length_273_cov_2.683486 file: staphyloccocus_aureus_spades_contigs position: 10278 reversed
+(226|NODE_358_length_292_cov_1.708861):
+name: 226 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_358_length_292_cov_1.708861 file: staphyloccocus_aureus_spades_contigs position: 825 reversed
+(230|NODE_571_length_193_cov_66.123188):
+name: 230 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_571_length_193_cov_66.123188 file: staphyloccocus_aureus_spades_contigs position: 116 non-reversed
+(231|(((NODE_33_length_25660_cov_55.546534|357)|213)|206)):
+name: 231 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_33_length_25660_cov_55.546534 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 357 file: staphyloccocus_aureus_minia_contigs position: 1963 non-reversed
+name: 213 file: staphyloccocus_aureus_minia_contigs position: 3377 non-reversed
+name: 206 file: staphyloccocus_aureus_minia_contigs position: 16090 non-reversed
+(235|NODE_376_length_275_cov_1.918182):
+name: 235 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_376_length_275_cov_1.918182 file: staphyloccocus_aureus_spades_contigs position: 3228 reversed
+(240|((NODE_25_length_48373_cov_75.436049|56)|45)):
+name: 240 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_25_length_48373_cov_75.436049 file: staphyloccocus_aureus_spades_contigs position: 22 reversed
+name: 56 file: staphyloccocus_aureus_minia_contigs position: 29665 non-reversed
+name: 45 file: staphyloccocus_aureus_minia_contigs position: 26645 reversed
+(24|(NODE_15_length_73891_cov_71.497427|53)):
+name: 24 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_15_length_73891_cov_71.497427 file: staphyloccocus_aureus_spades_contigs position: 22323 non-reversed
+name: 53 file: staphyloccocus_aureus_minia_contigs position: 31104 non-reversed
+(250|NODE_39_length_7061_cov_72.342849):
+name: 250 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_39_length_7061_cov_72.342849 file: staphyloccocus_aureus_spades_contigs position: 127 non-reversed
+(251|NODE_156_length_568_cov_1.444444):
+name: 251 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_156_length_568_cov_1.444444 file: staphyloccocus_aureus_spades_contigs position: 3332 non-reversed
+(257|NODE_460_length_234_cov_0.754190):
+name: 257 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_460_length_234_cov_0.754190 file: staphyloccocus_aureus_spades_contigs position: 4264 non-reversed
+(259|NODE_448_length_238_cov_2.546448):
+name: 259 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_448_length_238_cov_2.546448 file: staphyloccocus_aureus_spades_contigs position: 5215 non-reversed
+(263|NODE_43_length_4393_cov_62.658137):
+name: 263 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_43_length_4393_cov_62.658137 file: staphyloccocus_aureus_spades_contigs position: 107 reversed
+(271|NODE_255_length_391_cov_81.011905):
+name: 271 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_255_length_391_cov_81.011905 file: staphyloccocus_aureus_spades_contigs position: 6299 non-reversed
+(273|NODE_310_length_330_cov_1.963636):
+name: 273 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_310_length_330_cov_1.963636 file: staphyloccocus_aureus_spades_contigs position: 3356 non-reversed
+(276|NODE_580_length_135_cov_222.987500):
+name: 276 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_580_length_135_cov_222.987500 file: staphyloccocus_aureus_spades_contigs position: 12 non-reversed
+(279|NODE_598_length_114_cov_65.288136):
+name: 279 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_598_length_114_cov_65.288136 file: staphyloccocus_aureus_spades_contigs position: 4 reversed
+(284|NODE_633_length_63_cov_398.750000):
+name: 284 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_633_length_63_cov_398.750000 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+(293|NODE_538_length_212_cov_1.433121):
+name: 293 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_538_length_212_cov_1.433121 file: staphyloccocus_aureus_spades_contigs position: 3254 reversed
+(301|NODE_110_length_743_cov_1.827035):
+name: 301 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_110_length_743_cov_1.827035 file: staphyloccocus_aureus_spades_contigs position: 154 reversed
+(303|NODE_472_length_230_cov_2.531429):
+name: 303 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_472_length_230_cov_2.531429 file: staphyloccocus_aureus_spades_contigs position: 6 non-reversed
+(311|NODE_631_length_67_cov_62.000000):
+name: 311 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_631_length_67_cov_62.000000 file: staphyloccocus_aureus_spades_contigs position: 788 non-reversed
+(314|NODE_277_length_367_cov_52.775641):
+name: 314 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_277_length_367_cov_52.775641 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(315|NODE_165_length_551_cov_66.969758):
+name: 315 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_165_length_551_cov_66.969758 file: staphyloccocus_aureus_spades_contigs position: 327 non-reversed
+(325|NODE_599_length_111_cov_72.142857):
+name: 325 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_599_length_111_cov_72.142857 file: staphyloccocus_aureus_spades_contigs position: 68 non-reversed
+(326|(((NODE_8_length_125619_cov_69.963015|10)|195)|29)):
+name: 326 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_8_length_125619_cov_69.963015 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+name: 10 file: staphyloccocus_aureus_minia_contigs position: 48513 non-reversed
+name: 195 file: staphyloccocus_aureus_minia_contigs position: 293 non-reversed
+name: 29 file: staphyloccocus_aureus_minia_contigs position: 26541 non-reversed
+(336|NODE_94_length_883_cov_65.185990):
+name: 336 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_94_length_883_cov_65.185990 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(343|NODE_579_length_139_cov_138.964286):
+name: 343 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_579_length_139_cov_138.964286 file: staphyloccocus_aureus_spades_contigs position: 91 reversed
+(348|NODE_482_length_226_cov_72.087719):
+name: 348 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_482_length_226_cov_72.087719 file: staphyloccocus_aureus_spades_contigs position: 52 reversed
+(360|NODE_573_length_164_cov_228.275229):
+name: 360 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_573_length_164_cov_228.275229 file: staphyloccocus_aureus_spades_contigs position: 279 non-reversed
+(363|NODE_637_length_58_cov_73.666667):
+name: 363 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_637_length_58_cov_73.666667 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(365|NODE_576_length_149_cov_64.606383):
+name: 365 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_576_length_149_cov_64.606383 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(366|NODE_574_length_155_cov_273.260000):
+name: 366 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_574_length_155_cov_273.260000 file: staphyloccocus_aureus_spades_contigs position: 27 non-reversed
+(372|NODE_602_length_106_cov_158.235294):
+name: 372 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_602_length_106_cov_158.235294 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(374|NODE_501_length_222_cov_73.323353):
+name: 374 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_501_length_222_cov_73.323353 file: staphyloccocus_aureus_spades_contigs position: 567 reversed
+(376|NODE_629_length_70_cov_241.933333):
+name: 376 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_629_length_70_cov_241.933333 file: staphyloccocus_aureus_spades_contigs position: 16 reversed
+(38|NODE_433_length_244_cov_53.629630):
+name: 38 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_433_length_244_cov_53.629630 file: staphyloccocus_aureus_spades_contigs position: 39 non-reversed
+(3|NODE_46_length_3085_cov_428.896370):
+name: 3 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_46_length_3085_cov_428.896370 file: staphyloccocus_aureus_spades_contigs position: 9 reversed
+(44|((((((((((((NODE_2_length_166136_cov_58.549196|172)|287)|178)|217)|64)|252)|55)|309)|115)|277)|312)|239)):
+name: 44 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_2_length_166136_cov_58.549196 file: staphyloccocus_aureus_spades_contigs position: 33 non-reversed
+name: 172 file: staphyloccocus_aureus_minia_contigs position: 94082 non-reversed
+name: 287 file: staphyloccocus_aureus_minia_contigs position: 15372 non-reversed
+name: 178 file: staphyloccocus_aureus_minia_contigs position: 41260 non-reversed
+name: 217 file: staphyloccocus_aureus_minia_contigs position: 134287 non-reversed
+name: 64 file: staphyloccocus_aureus_minia_contigs position: 89065 non-reversed
+name: 252 file: staphyloccocus_aureus_minia_contigs position: 36714 non-reversed
+name: 55 file: staphyloccocus_aureus_minia_contigs position: 142360 non-reversed
+name: 309 file: staphyloccocus_aureus_minia_contigs position: 34229 non-reversed
+name: 115 file: staphyloccocus_aureus_minia_contigs position: 4678 non-reversed
+name: 277 file: staphyloccocus_aureus_minia_contigs position: 51645 non-reversed
+name: 312 file: staphyloccocus_aureus_minia_contigs position: 7099 non-reversed
+name: 239 file: staphyloccocus_aureus_minia_contigs position: 79388 non-reversed
+(71|NODE_490_length_224_cov_76.639053):
+name: 71 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_490_length_224_cov_76.639053 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(77|NODE_570_length_203_cov_78.033784):
+name: 77 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_570_length_203_cov_78.033784 file: staphyloccocus_aureus_spades_contigs position: 55 reversed
+(78|NODE_642_length_56_cov_182.000000):
+name: 78 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_642_length_56_cov_182.000000 file: staphyloccocus_aureus_spades_contigs position: 64 reversed
+(79|NODE_603_length_102_cov_81.148936):
+name: 79 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_603_length_102_cov_81.148936 file: staphyloccocus_aureus_spades_contigs position: 8 reversed
+(80|NODE_115_length_729_cov_76.724036):
+name: 80 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_115_length_729_cov_76.724036 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(81|NODE_170_length_535_cov_1.337500):
+name: 81 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_170_length_535_cov_1.337500 file: staphyloccocus_aureus_spades_contigs position: 9823 non-reversed
+(83|NODE_622_length_73_cov_78.277778):
+name: 83 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_622_length_73_cov_78.277778 file: staphyloccocus_aureus_spades_contigs position: 8 non-reversed
+(94|NODE_605_length_97_cov_232.285714):
+name: 94 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+name: NODE_605_length_97_cov_232.285714 file: staphyloccocus_aureus_spades_contigs position: 35 non-reversed
+(NODE_101_length_794_cov_1.341001|(26|NODE_431_length_246_cov_2.120419)):
+name: NODE_101_length_794_cov_1.341001 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 26 file: staphyloccocus_aureus_minia_contigs position: 8 non-reversed
+name: NODE_431_length_246_cov_2.120419 file: staphyloccocus_aureus_spades_contigs position: 7656 non-reversed
+(NODE_119_length_717_cov_1.531722|332):
+name: NODE_119_length_717_cov_1.531722 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 332 file: staphyloccocus_aureus_minia_contigs position: 288 non-reversed
+(NODE_158_length_564_cov_134.223969|(352|NODE_532_length_213_cov_150.056962)):
+name: NODE_158_length_564_cov_134.223969 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 352 file: staphyloccocus_aureus_minia_contigs position: 182 non-reversed
+name: NODE_532_length_213_cov_150.056962 file: staphyloccocus_aureus_spades_contigs position: 574 non-reversed
+(NODE_16_length_68539_cov_74.700937|11):
+name: NODE_16_length_68539_cov_74.700937 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 11 file: staphyloccocus_aureus_minia_contigs position: 34551 non-reversed
+(NODE_177_length_516_cov_150.112798|135):
+name: NODE_177_length_516_cov_150.112798 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 135 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+(NODE_193_length_479_cov_139.551887|328):
+name: NODE_193_length_479_cov_139.551887 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 328 file: staphyloccocus_aureus_minia_contigs position: 41 non-reversed
+(NODE_237_length_416_cov_325.221607|4):
+name: NODE_237_length_416_cov_325.221607 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 4 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+(NODE_260_length_387_cov_199.018072|268):
+name: NODE_260_length_387_cov_199.018072 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 268 file: staphyloccocus_aureus_minia_contigs position: 237 non-reversed
+(NODE_309_length_331_cov_234.166667|110):
+name: NODE_309_length_331_cov_234.166667 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 110 file: staphyloccocus_aureus_minia_contigs position: 87 non-reversed
+(NODE_319_length_326_cov_133.701107|192):
+name: NODE_319_length_326_cov_133.701107 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 192 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+(NODE_32_length_27071_cov_4.349497|136):
+name: NODE_32_length_27071_cov_4.349497 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 136 file: staphyloccocus_aureus_minia_contigs position: 7867 non-reversed
+(NODE_330_length_316_cov_124.310345|63):
+name: NODE_330_length_316_cov_124.310345 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 63 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+(NODE_389_length_267_cov_3.066038|(70|NODE_567_length_206_cov_1.490066)):
+name: NODE_389_length_267_cov_3.066038 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 70 file: staphyloccocus_aureus_minia_contigs position: 66 non-reversed
+name: NODE_567_length_206_cov_1.490066 file: staphyloccocus_aureus_spades_contigs position: 364 reversed
+(NODE_38_length_10186_cov_73.078472|166):
+name: NODE_38_length_10186_cov_73.078472 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 166 file: staphyloccocus_aureus_minia_contigs position: 3839 non-reversed
+(NODE_409_length_259_cov_1.313725|197):
+name: NODE_409_length_259_cov_1.313725 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 197 file: staphyloccocus_aureus_minia_contigs position: 89 non-reversed
+(NODE_42_length_4671_cov_77.461438|295):
+name: NODE_42_length_4671_cov_77.461438 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 295 file: staphyloccocus_aureus_minia_contigs position: 70 non-reversed
+(NODE_53_length_1704_cov_422.597938|6):
+name: NODE_53_length_1704_cov_422.597938 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 6 file: staphyloccocus_aureus_minia_contigs position: 13 non-reversed
+(NODE_575_length_152_cov_72.123711|(((258|NODE_551_length_209_cov_59.720779)|NODE_584_length_131_cov_75.526316)|NODE_588_length_123_cov_69.205882)):
+name: NODE_575_length_152_cov_72.123711 file: staphyloccocus_aureus_spades_contigs position: 0 non-reversed
+name: 258 file: staphyloccocus_aureus_minia_contigs position: 7 non-reversed
+name: NODE_551_length_209_cov_59.720779 file: staphyloccocus_aureus_spades_contigs position: 404 reversed
+name: NODE_584_length_131_cov_75.526316 file: staphyloccocus_aureus_spades_contigs position: 216 non-reversed
+name: NODE_588_length_123_cov_69.205882 file: staphyloccocus_aureus_spades_contigs position: 774 non-reversed
+(NODE_76_length_1072_cov_271.735497|57):
+name: NODE_76_length_1072_cov_271.735497 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 57 file: staphyloccocus_aureus_minia_contigs position: 0 non-reversed
+(NODE_96_length_820_cov_1.470588|(292|NODE_523_length_215_cov_75.056250)):
+name: NODE_96_length_820_cov_1.470588 file: staphyloccocus_aureus_spades_contigs position: 0 reversed
+name: 292 file: staphyloccocus_aureus_minia_contigs position: 112 non-reversed
+name: NODE_523_length_215_cov_75.056250 file: staphyloccocus_aureus_spades_contigs position: 147 non-reversed

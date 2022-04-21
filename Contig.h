@@ -44,7 +44,8 @@ private:
 
   
 public:
-  
+  Contig(const Contig & c) : name(c.name), set_id(c.set_id), sequence(c.sequence), sequence_size(c.sequence_size), component_contigs(c.component_contigs)
+  {}
 
   Contig(unsigned set_id, string &&name,vector<Nuc> && sequence) : name(name), set_id(set_id), sequence(move(sequence)) {
     sequence_size=this->sequence.size();

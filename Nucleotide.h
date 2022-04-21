@@ -27,12 +27,6 @@ public:
   void operator=(char c)
   {
     switch (c) {
-    case 'N':
-      A = A==4 ? 4 : A+1;
-      T = T==4 ? 4 : T+1;
-      C = C==4 ? 4 : C+1;
-      G = G==4 ? 4 : G+1;
-      break;
     case 'A':
       A = A==4 ? 4 : A+1;
       break;
@@ -43,6 +37,56 @@ public:
       C = C==4 ? 4 : C+1;
       break;
     case 'G':
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'R':
+      A = A==4 ? 4 : A+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'Y':
+      T = T==4 ? 4 : T+1;
+      C = C==4 ? 4 : C+1;
+      break;
+    case 'K':
+      T = T==4 ? 4 : T+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'M':
+      A = A==4 ? 4 : A+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'S':
+      C = C==4 ? 4 : C+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'W':
+      A = A==4 ? 4 : A+1;
+      T = T==4 ? 4 : T+1;
+      break;
+    case 'B':
+      T = T==4 ? 4 : T+1;
+      C = C==4 ? 4 : C+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'D':
+      A = A==4 ? 4 : A+1;
+      T = T==4 ? 4 : T+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'H':
+      A = A==4 ? 4 : A+1;
+      T = T==4 ? 4 : T+1;
+      C = C==4 ? 4 : C+1;
+      break;
+    case 'V':
+      A = A==4 ? 4 : A+1;
+      C = C==4 ? 4 : C+1;
+      G = G==4 ? 4 : G+1;
+      break;
+    case 'N':
+      A = A==4 ? 4 : A+1;
+      T = T==4 ? 4 : T+1;
+      C = C==4 ? 4 : C+1;
       G = G==4 ? 4 : G+1;
       break;
     }
@@ -63,19 +107,53 @@ public:
 
   operator char() const
   {
-    char m='A';
-    char v=A;
-    if(T>v){
-      v=T;
-      m='T';
-    }
-    if(C>v){
-      v=C;
-      m='C';
-    }
-    if(G>v)
-      m='G';
-    return m;
+    unsigned m = max(max(A,T),max(C,G));
+    bool bA = A==m;
+    bool bT = T==m;
+    bool bC = C==m;
+    bool bG = G==m;
+    if(bA && bT && bC && bG)
+      return 'N';
+    if(bA && !bT && !bC && !bG)
+      return 'A';
+
+    if(!bA && bT && bC && bG)
+      return 'T';
+
+    if(!bA && !bT && bC && !bG)
+      return 'C';
+
+    if(!bA && !bT && !bC && bG)
+      return 'G';
+
+    if(bA && !bT && !bC && bG)
+      return 'R';
+
+    if(!bA && bT && bC && !bG)
+      return 'Y';
+
+    if(!bA && bT && bC && !bG)
+      return 'K';
+
+    if(bA && !bT && !bC && bG)
+      return 'M';
+
+    if(!bA && !bT && bC && bG)
+      return 'S';
+
+    if(bA && bT && !bC && !bG)
+      return 'W';
+
+    if(!bA && bT && bC && bG)
+      return 'B';
+
+    if(bA && bT && !bC && bG)
+      return 'D';
+
+    if(bA && bT && bC && !bG)
+      return 'H';
+
+    return 'V';
   }
 
    

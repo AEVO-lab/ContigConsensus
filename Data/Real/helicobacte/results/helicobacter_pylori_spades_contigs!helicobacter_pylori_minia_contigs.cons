@@ -1,0 +1,243 @@
+((((((NODE_2_length_158453_cov_1430.194183|6)|39)|21)|172)|167)|7):
+name: NODE_2_length_158453_cov_1430.194183 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 6 file: helicobacter_pylori_minia_contigs position: 94699 non-reversed
+name: 39 file: helicobacter_pylori_minia_contigs position: 19519 reversed
+name: 21 file: helicobacter_pylori_minia_contigs position: 59981 non-reversed
+name: 172 file: helicobacter_pylori_minia_contigs position: 63755 reversed
+name: 167 file: helicobacter_pylori_minia_contigs position: 138935 non-reversed
+name: 7 file: helicobacter_pylori_minia_contigs position: 99099 non-reversed
+(((((NODE_38_length_1887_cov_12935.036464|91)|120)|276)|274)|248):
+name: NODE_38_length_1887_cov_12935.036464 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 91 file: helicobacter_pylori_minia_contigs position: 83 non-reversed
+name: 120 file: helicobacter_pylori_minia_contigs position: 89 reversed
+name: 276 file: helicobacter_pylori_minia_contigs position: 1090 non-reversed
+name: 274 file: helicobacter_pylori_minia_contigs position: 1798 non-reversed
+name: 248 file: helicobacter_pylori_minia_contigs position: 1806 non-reversed
+(((((NODE_8_length_68912_cov_1723.414222|22)|49)|45)|54)|(((((15|NODE_23_length_18946_cov_1667.380253)|NODE_108_length_248_cov_1.748538)|NODE_130_length_237_cov_1.231250)|NODE_145_length_232_cov_1.148387)|NODE_159_length_228_cov_1442.947020)):
+name: NODE_8_length_68912_cov_1723.414222 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 22 file: helicobacter_pylori_minia_contigs position: 47859 non-reversed
+name: 49 file: helicobacter_pylori_minia_contigs position: 35052 non-reversed
+name: 45 file: helicobacter_pylori_minia_contigs position: 21973 non-reversed
+name: 54 file: helicobacter_pylori_minia_contigs position: 16106 non-reversed
+name: 15 file: helicobacter_pylori_minia_contigs position: 30428 non-reversed
+name: NODE_23_length_18946_cov_1667.380253 file: helicobacter_pylori_spades_contigs position: 30441 reversed
+name: NODE_108_length_248_cov_1.748538 file: helicobacter_pylori_spades_contigs position: 86627 non-reversed
+name: NODE_130_length_237_cov_1.231250 file: helicobacter_pylori_spades_contigs position: 103437 reversed
+name: NODE_145_length_232_cov_1.148387 file: helicobacter_pylori_spades_contigs position: 105264 non-reversed
+name: NODE_159_length_228_cov_1442.947020 file: helicobacter_pylori_spades_contigs position: 69429 non-reversed
+((((NODE_11_length_50448_cov_1617.861865|17)|(40|NODE_15_length_41648_cov_1556.154555))|82)|(52|NODE_35_length_3611_cov_1627.376344)):
+name: NODE_11_length_50448_cov_1617.861865 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 17 file: helicobacter_pylori_minia_contigs position: 9925 non-reversed
+name: 40 file: helicobacter_pylori_minia_contigs position: 53 reversed
+name: NODE_15_length_41648_cov_1556.154555 file: helicobacter_pylori_spades_contigs position: 66 reversed
+name: 82 file: helicobacter_pylori_minia_contigs position: 7114 non-reversed
+name: 52 file: helicobacter_pylori_minia_contigs position: 46823 non-reversed
+name: NODE_35_length_3611_cov_1627.376344 file: helicobacter_pylori_spades_contigs position: 46835 non-reversed
+(((66|NODE_161_length_207_cov_2646.953846)|NODE_169_length_155_cov_1623.397436)|NODE_168_length_155_cov_1728.115385):
+name: 66 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_161_length_207_cov_2646.953846 file: helicobacter_pylori_spades_contigs position: 13 reversed
+name: NODE_169_length_155_cov_1623.397436 file: helicobacter_pylori_spades_contigs position: 273 non-reversed
+name: NODE_168_length_155_cov_1728.115385 file: helicobacter_pylori_spades_contigs position: 540 non-reversed
+(((NODE_1_length_203671_cov_1744.786502|69)|14)|33):
+name: NODE_1_length_203671_cov_1744.786502 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 69 file: helicobacter_pylori_minia_contigs position: 183809 non-reversed
+name: 14 file: helicobacter_pylori_minia_contigs position: 93178 non-reversed
+name: 33 file: helicobacter_pylori_minia_contigs position: 199559 non-reversed
+(((NODE_28_length_11921_cov_1581.340848|16)|284)|150):
+name: NODE_28_length_11921_cov_1581.340848 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 16 file: helicobacter_pylori_minia_contigs position: 23 non-reversed
+name: 284 file: helicobacter_pylori_minia_contigs position: 530 reversed
+name: 150 file: helicobacter_pylori_minia_contigs position: 11653 non-reversed
+(((NODE_6_length_84133_cov_1413.908454|20)|283)|12):
+name: NODE_6_length_84133_cov_1413.908454 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 20 file: helicobacter_pylori_minia_contigs position: 624 non-reversed
+name: 283 file: helicobacter_pylori_minia_contigs position: 50777 reversed
+name: 12 file: helicobacter_pylori_minia_contigs position: 44219 non-reversed
+((31|NODE_19_length_30451_cov_1593.262033)|98):
+name: 31 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_19_length_30451_cov_1593.262033 file: helicobacter_pylori_spades_contigs position: 13 reversed
+name: 98 file: helicobacter_pylori_minia_contigs position: 30386 non-reversed
+((46|NODE_20_length_27936_cov_1660.240461)|395):
+name: 46 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_20_length_27936_cov_1660.240461 file: helicobacter_pylori_spades_contigs position: 13 reversed
+name: 395 file: helicobacter_pylori_minia_contigs position: 27871 non-reversed
+((NODE_13_length_46322_cov_1504.914456|175)|18):
+name: NODE_13_length_46322_cov_1504.914456 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 175 file: helicobacter_pylori_minia_contigs position: 10405 non-reversed
+name: 18 file: helicobacter_pylori_minia_contigs position: 10586 non-reversed
+((NODE_31_length_5962_cov_1781.927613|55)|148):
+name: NODE_31_length_5962_cov_1781.927613 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 55 file: helicobacter_pylori_minia_contigs position: 603 non-reversed
+name: 148 file: helicobacter_pylori_minia_contigs position: 5584 non-reversed
+((NODE_4_length_98490_cov_1470.979159|5)|11):
+name: NODE_4_length_98490_cov_1470.979159 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 5 file: helicobacter_pylori_minia_contigs position: 292 non-reversed
+name: 11 file: helicobacter_pylori_minia_contigs position: 25129 non-reversed
+((NODE_51_length_480_cov_5240.325062|156)|269):
+name: NODE_51_length_480_cov_5240.325062 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 156 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: 269 file: helicobacter_pylori_minia_contigs position: 425 non-reversed
+((NODE_52_length_467_cov_3720.051282|87)|85):
+name: NODE_52_length_467_cov_3720.051282 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 87 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: 85 file: helicobacter_pylori_minia_contigs position: 377 non-reversed
+((NODE_5_length_97359_cov_1561.582019|2)|(30|NODE_24_length_18448_cov_1714.436340)):
+name: NODE_5_length_97359_cov_1561.582019 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 2 file: helicobacter_pylori_minia_contigs position: 30529 reversed
+name: 30 file: helicobacter_pylori_minia_contigs position: 78440 non-reversed
+name: NODE_24_length_18448_cov_1714.436340 file: helicobacter_pylori_spades_contigs position: 78452 reversed
+(101|NODE_126_length_240_cov_1.276074):
+name: 101 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_126_length_240_cov_1.276074 file: helicobacter_pylori_spades_contigs position: 140 non-reversed
+(104|NODE_137_length_235_cov_1.094937):
+name: 104 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_137_length_235_cov_1.094937 file: helicobacter_pylori_spades_contigs position: 240 non-reversed
+(106|NODE_136_length_235_cov_1.189873):
+name: 106 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_136_length_235_cov_1.189873 file: helicobacter_pylori_spades_contigs position: 807 reversed
+(10|NODE_3_length_123280_cov_1515.359236):
+name: 10 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_3_length_123280_cov_1515.359236 file: helicobacter_pylori_spades_contigs position: 15 reversed
+(116|NODE_148_length_232_cov_0.864516):
+name: 116 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_148_length_232_cov_0.864516 file: helicobacter_pylori_spades_contigs position: 53 reversed
+(151|NODE_93_length_255_cov_1051.758427):
+name: 151 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_93_length_255_cov_1051.758427 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(152|NODE_58_length_356_cov_1895.394265):
+name: 152 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_58_length_356_cov_1895.394265 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(153|NODE_167_length_155_cov_1732.974359):
+name: 153 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_167_length_155_cov_1732.974359 file: helicobacter_pylori_spades_contigs position: 111 non-reversed
+(158|(NODE_18_length_32913_cov_1413.297813|24)):
+name: 158 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_18_length_32913_cov_1413.297813 file: helicobacter_pylori_spades_contigs position: 42 non-reversed
+name: 24 file: helicobacter_pylori_minia_contigs position: 14159 non-reversed
+(19|NODE_14_length_42389_cov_1484.507327):
+name: 19 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_14_length_42389_cov_1484.507327 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(25|NODE_17_length_34177_cov_1606.424633):
+name: 25 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_17_length_34177_cov_1606.424633 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(268|NODE_160_length_210_cov_1693.954887):
+name: 268 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_160_length_210_cov_1693.954887 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(270|NODE_158_length_229_cov_1.078947):
+name: 270 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_158_length_229_cov_1.078947 file: helicobacter_pylori_spades_contigs position: 76 reversed
+(282|NODE_171_length_128_cov_5038.823529):
+name: 282 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_171_length_128_cov_5038.823529 file: helicobacter_pylori_spades_contigs position: 52 non-reversed
+(29|NODE_63_length_329_cov_0.992063):
+name: 29 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_63_length_329_cov_0.992063 file: helicobacter_pylori_spades_contigs position: 14439 non-reversed
+(32|NODE_22_length_22877_cov_1621.463684):
+name: 32 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_22_length_22877_cov_1621.463684 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(34|NODE_25_length_14618_cov_1559.765559):
+name: 34 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_25_length_14618_cov_1559.765559 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(35|NODE_7_length_81281_cov_1668.290737):
+name: 35 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_7_length_81281_cov_1668.290737 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(363|NODE_86_length_259_cov_1.203297):
+name: 363 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_86_length_259_cov_1.203297 file: helicobacter_pylori_spades_contigs position: 34 reversed
+(36|NODE_32_length_5723_cov_1299.745838):
+name: 36 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_32_length_5723_cov_1299.745838 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(383|NODE_116_length_245_cov_0.875000):
+name: 383 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_116_length_245_cov_0.875000 file: helicobacter_pylori_spades_contigs position: 81 non-reversed
+(38|NODE_30_length_6757_cov_1617.191689):
+name: 38 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_30_length_6757_cov_1617.191689 file: helicobacter_pylori_spades_contigs position: 90 non-reversed
+(3|NODE_157_length_229_cov_1.151316):
+name: 3 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_157_length_229_cov_1.151316 file: helicobacter_pylori_spades_contigs position: 151 non-reversed
+(41|NODE_12_length_47738_cov_1717.851199):
+name: 41 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_12_length_47738_cov_1717.851199 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(42|NODE_27_length_12641_cov_1577.168736):
+name: 42 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_27_length_12641_cov_1577.168736 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(48|NODE_21_length_26044_cov_1750.522201):
+name: 48 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_21_length_26044_cov_1750.522201 file: helicobacter_pylori_spades_contigs position: 12 non-reversed
+(50|NODE_53_length_455_cov_1410.690476):
+name: 50 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_53_length_455_cov_1410.690476 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(58|NODE_50_length_481_cov_1451.272277):
+name: 58 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_50_length_481_cov_1451.272277 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(59|NODE_45_length_881_cov_1726.634328):
+name: 59 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_45_length_881_cov_1726.634328 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(63|NODE_36_length_2525_cov_1783.698529):
+name: 63 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_36_length_2525_cov_1783.698529 file: helicobacter_pylori_spades_contigs position: 13 reversed
+(68|NODE_33_length_4001_cov_3229.035678):
+name: 68 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_33_length_4001_cov_3229.035678 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(77|NODE_43_length_896_cov_4746.553114):
+name: 77 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_43_length_896_cov_4746.553114 file: helicobacter_pylori_spades_contigs position: 318 reversed
+(84|NODE_54_length_438_cov_2851.016620):
+name: 84 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_54_length_438_cov_2851.016620 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+(8|NODE_10_length_57328_cov_1654.917277):
+name: 8 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_10_length_57328_cov_1654.917277 file: helicobacter_pylori_spades_contigs position: 11 reversed
+(9|NODE_16_length_35361_cov_1433.796055):
+name: 9 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+name: NODE_16_length_35361_cov_1433.796055 file: helicobacter_pylori_spades_contigs position: 13 non-reversed
+(NODE_128_length_239_cov_1.129630|134):
+name: NODE_128_length_239_cov_1.129630 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 134 file: helicobacter_pylori_minia_contigs position: 162 non-reversed
+(NODE_135_length_235_cov_1.189873|127):
+name: NODE_135_length_235_cov_1.189873 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 127 file: helicobacter_pylori_minia_contigs position: 25 non-reversed
+(NODE_141_length_233_cov_1.294872|139):
+name: NODE_141_length_233_cov_1.294872 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 139 file: helicobacter_pylori_minia_contigs position: 65 non-reversed
+(NODE_144_length_232_cov_1.161290|209):
+name: NODE_144_length_232_cov_1.161290 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 209 file: helicobacter_pylori_minia_contigs position: 32 non-reversed
+(NODE_164_length_157_cov_5548.800000|102):
+name: NODE_164_length_157_cov_5548.800000 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 102 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+(NODE_165_length_155_cov_1938.948718|(81|NODE_40_length_1648_cov_3275.882877)):
+name: NODE_165_length_155_cov_1938.948718 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 81 file: helicobacter_pylori_minia_contigs position: 78 non-reversed
+name: NODE_40_length_1648_cov_3275.882877 file: helicobacter_pylori_spades_contigs position: 241 reversed
+(NODE_26_length_12657_cov_1407.976153|44):
+name: NODE_26_length_12657_cov_1407.976153 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 44 file: helicobacter_pylori_minia_contigs position: 54 non-reversed
+(NODE_29_length_8185_cov_11613.095585|13):
+name: NODE_29_length_8185_cov_11613.095585 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 13 file: helicobacter_pylori_minia_contigs position: 541 non-reversed
+(NODE_34_length_3620_cov_3130.552921|67):
+name: NODE_34_length_3620_cov_3130.552921 file: helicobacter_pylori_spades_contigs position: 0 reversed
+name: 67 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+(NODE_37_length_2128_cov_3487.556802|75):
+name: NODE_37_length_2128_cov_3487.556802 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 75 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+(NODE_39_length_1738_cov_3079.449729|73):
+name: NODE_39_length_1738_cov_3079.449729 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 73 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+(NODE_41_length_1118_cov_3037.060519|70):
+name: NODE_41_length_1118_cov_3037.060519 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 70 file: helicobacter_pylori_minia_contigs position: 0 non-reversed
+(NODE_44_length_893_cov_4.966912|343):
+name: NODE_44_length_893_cov_4.966912 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 343 file: helicobacter_pylori_minia_contigs position: 378 non-reversed
+(NODE_47_length_576_cov_1.210421|371):
+name: NODE_47_length_576_cov_1.210421 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 371 file: helicobacter_pylori_minia_contigs position: 370 non-reversed
+(NODE_84_length_260_cov_1.054645|159):
+name: NODE_84_length_260_cov_1.054645 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 159 file: helicobacter_pylori_minia_contigs position: 60 non-reversed
+(NODE_9_length_59177_cov_1649.501168|4):
+name: NODE_9_length_59177_cov_1649.501168 file: helicobacter_pylori_spades_contigs position: 0 non-reversed
+name: 4 file: helicobacter_pylori_minia_contigs position: 74 non-reversed

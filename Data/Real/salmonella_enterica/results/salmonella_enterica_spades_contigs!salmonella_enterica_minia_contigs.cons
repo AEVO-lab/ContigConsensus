@@ -1,0 +1,696 @@
+(((((((((((((((NODE_1_length_367490_cov_30.632656|0)|12)|146)|107)|37)|250)|413)|237)|531)|625)|378)|282)|342)|726)|292):
+name: NODE_1_length_367490_cov_30.632656 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 0 file: salmonella_enterica_minia_contigs position: 298562 non-reversed
+name: 12 file: salmonella_enterica_minia_contigs position: 163632 reversed
+name: 146 file: salmonella_enterica_minia_contigs position: 246558 non-reversed
+name: 107 file: salmonella_enterica_minia_contigs position: 267899 reversed
+name: 37 file: salmonella_enterica_minia_contigs position: 887 non-reversed
+name: 250 file: salmonella_enterica_minia_contigs position: 204589 reversed
+name: 413 file: salmonella_enterica_minia_contigs position: 277798 non-reversed
+name: 237 file: salmonella_enterica_minia_contigs position: 229298 reversed
+name: 531 file: salmonella_enterica_minia_contigs position: 27181 non-reversed
+name: 625 file: salmonella_enterica_minia_contigs position: 69046 reversed
+name: 378 file: salmonella_enterica_minia_contigs position: 203984 non-reversed
+name: 282 file: salmonella_enterica_minia_contigs position: 121027 reversed
+name: 342 file: salmonella_enterica_minia_contigs position: 246186 non-reversed
+name: 726 file: salmonella_enterica_minia_contigs position: 90822 reversed
+name: 292 file: salmonella_enterica_minia_contigs position: 126426 non-reversed
+((((((((((((((NODE_5_length_192315_cov_32.411511|60)|13)|11)|64)|194)|224)|417)|172)|61)|692)|516)|241)|192)|429):
+name: NODE_5_length_192315_cov_32.411511 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 60 file: salmonella_enterica_minia_contigs position: 30350 non-reversed
+name: 13 file: salmonella_enterica_minia_contigs position: 6368 non-reversed
+name: 11 file: salmonella_enterica_minia_contigs position: 114472 non-reversed
+name: 64 file: salmonella_enterica_minia_contigs position: 182235 non-reversed
+name: 194 file: salmonella_enterica_minia_contigs position: 211 non-reversed
+name: 224 file: salmonella_enterica_minia_contigs position: 99490 non-reversed
+name: 417 file: salmonella_enterica_minia_contigs position: 173534 non-reversed
+name: 172 file: salmonella_enterica_minia_contigs position: 76105 non-reversed
+name: 61 file: salmonella_enterica_minia_contigs position: 106733 non-reversed
+name: 692 file: salmonella_enterica_minia_contigs position: 137533 non-reversed
+name: 516 file: salmonella_enterica_minia_contigs position: 98497 non-reversed
+name: 241 file: salmonella_enterica_minia_contigs position: 103385 non-reversed
+name: 192 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 429 file: salmonella_enterica_minia_contigs position: 76064 non-reversed
+(((((((((((((NODE_14_length_100239_cov_42.721192|42)|131)|696)|452)|218)|242)|545)|426)|678)|609)|499)|639)|731):
+name: NODE_14_length_100239_cov_42.721192 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 42 file: salmonella_enterica_minia_contigs position: 62190 non-reversed
+name: 131 file: salmonella_enterica_minia_contigs position: 42262 reversed
+name: 696 file: salmonella_enterica_minia_contigs position: 18299 non-reversed
+name: 452 file: salmonella_enterica_minia_contigs position: 39121 reversed
+name: 218 file: salmonella_enterica_minia_contigs position: 11495 non-reversed
+name: 242 file: salmonella_enterica_minia_contigs position: 89305 reversed
+name: 545 file: salmonella_enterica_minia_contigs position: 13289 non-reversed
+name: 426 file: salmonella_enterica_minia_contigs position: 90385 reversed
+name: 678 file: salmonella_enterica_minia_contigs position: 11028 non-reversed
+name: 609 file: salmonella_enterica_minia_contigs position: 89907 reversed
+name: 499 file: salmonella_enterica_minia_contigs position: 61129 non-reversed
+name: 639 file: salmonella_enterica_minia_contigs position: 71 reversed
+name: 731 file: salmonella_enterica_minia_contigs position: 43170 non-reversed
+((((((((((((NODE_3_length_229491_cov_46.962783|3)|57)|81)|20)|122)|647)|316)|569)|220)|315)|377)|384):
+name: NODE_3_length_229491_cov_46.962783 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 3 file: salmonella_enterica_minia_contigs position: 237 reversed
+name: 57 file: salmonella_enterica_minia_contigs position: 9808 non-reversed
+name: 81 file: salmonella_enterica_minia_contigs position: 127064 reversed
+name: 20 file: salmonella_enterica_minia_contigs position: 1914 non-reversed
+name: 122 file: salmonella_enterica_minia_contigs position: 164658 reversed
+name: 647 file: salmonella_enterica_minia_contigs position: 142 non-reversed
+name: 316 file: salmonella_enterica_minia_contigs position: 200017 reversed
+name: 569 file: salmonella_enterica_minia_contigs position: 102965 non-reversed
+name: 220 file: salmonella_enterica_minia_contigs position: 199744 reversed
+name: 315 file: salmonella_enterica_minia_contigs position: 229379 non-reversed
+name: 377 file: salmonella_enterica_minia_contigs position: 199587 reversed
+name: 384 file: salmonella_enterica_minia_contigs position: 30249 non-reversed
+(((((((((((NODE_18_length_96043_cov_34.195465|156)|308)|247)|160)|345)|503)|680)|708)|619)|628)|290):
+name: NODE_18_length_96043_cov_34.195465 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 156 file: salmonella_enterica_minia_contigs position: 38326 non-reversed
+name: 308 file: salmonella_enterica_minia_contigs position: 86242 non-reversed
+name: 247 file: salmonella_enterica_minia_contigs position: 14168 non-reversed
+name: 160 file: salmonella_enterica_minia_contigs position: 29294 non-reversed
+name: 345 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 503 file: salmonella_enterica_minia_contigs position: 22595 non-reversed
+name: 680 file: salmonella_enterica_minia_contigs position: 83884 non-reversed
+name: 708 file: salmonella_enterica_minia_contigs position: 22165 non-reversed
+name: 619 file: salmonella_enterica_minia_contigs position: 1781 non-reversed
+name: 628 file: salmonella_enterica_minia_contigs position: 14111 non-reversed
+name: 290 file: salmonella_enterica_minia_contigs position: 14051 non-reversed
+((((((((((NODE_35_length_46613_cov_37.921888|162)|124)|439)|592)|51)|253)|577)|523)|246)|457):
+name: NODE_35_length_46613_cov_37.921888 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 162 file: salmonella_enterica_minia_contigs position: 28954 non-reversed
+name: 124 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 439 file: salmonella_enterica_minia_contigs position: 24452 non-reversed
+name: 592 file: salmonella_enterica_minia_contigs position: 22667 non-reversed
+name: 51 file: salmonella_enterica_minia_contigs position: 42549 non-reversed
+name: 253 file: salmonella_enterica_minia_contigs position: 41344 non-reversed
+name: 577 file: salmonella_enterica_minia_contigs position: 23944 non-reversed
+name: 523 file: salmonella_enterica_minia_contigs position: 22158 non-reversed
+name: 246 file: salmonella_enterica_minia_contigs position: 22442 non-reversed
+name: 457 file: salmonella_enterica_minia_contigs position: 46536 non-reversed
+(((((((((NODE_20_length_94879_cov_32.285237|27)|307)|154)|723)|641)|268)|540)|424)|456):
+name: NODE_20_length_94879_cov_32.285237 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 27 file: salmonella_enterica_minia_contigs position: 82 non-reversed
+name: 307 file: salmonella_enterica_minia_contigs position: 47972 reversed
+name: 154 file: salmonella_enterica_minia_contigs position: 87259 non-reversed
+name: 723 file: salmonella_enterica_minia_contigs position: 13096 reversed
+name: 641 file: salmonella_enterica_minia_contigs position: 83909 non-reversed
+name: 268 file: salmonella_enterica_minia_contigs position: 9300 reversed
+name: 540 file: salmonella_enterica_minia_contigs position: 23 non-reversed
+name: 424 file: salmonella_enterica_minia_contigs position: 9753 reversed
+name: 456 file: salmonella_enterica_minia_contigs position: 94799 non-reversed
+((((((((NODE_27_length_70400_cov_32.998806|73)|116)|203)|222)|502)|563)|704)|677):
+name: NODE_27_length_70400_cov_32.998806 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 73 file: salmonella_enterica_minia_contigs position: 2738 non-reversed
+name: 116 file: salmonella_enterica_minia_contigs position: 49785 non-reversed
+name: 203 file: salmonella_enterica_minia_contigs position: 40155 non-reversed
+name: 222 file: salmonella_enterica_minia_contigs position: 31286 non-reversed
+name: 502 file: salmonella_enterica_minia_contigs position: 47948 non-reversed
+name: 563 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 704 file: salmonella_enterica_minia_contigs position: 1490 non-reversed
+name: 677 file: salmonella_enterica_minia_contigs position: 37989 non-reversed
+((((((((NODE_28_length_61500_cov_31.586800|205)|82)|314)|450)|325)|777)|(362|NODE_113_length_285_cov_50.692308))|((NODE_85_length_1163_cov_108.218232|267)|462)):
+name: NODE_28_length_61500_cov_31.586800 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 205 file: salmonella_enterica_minia_contigs position: 18243 non-reversed
+name: 82 file: salmonella_enterica_minia_contigs position: 27 non-reversed
+name: 314 file: salmonella_enterica_minia_contigs position: 55393 non-reversed
+name: 450 file: salmonella_enterica_minia_contigs position: 18147 non-reversed
+name: 325 file: salmonella_enterica_minia_contigs position: 61181 non-reversed
+name: 777 file: salmonella_enterica_minia_contigs position: 55331 non-reversed
+name: 362 file: salmonella_enterica_minia_contigs position: 61433 non-reversed
+name: NODE_113_length_285_cov_50.692308 file: salmonella_enterica_spades_contigs position: 61623 reversed
+name: NODE_85_length_1163_cov_108.218232 file: salmonella_enterica_spades_contigs position: 61912 non-reversed
+name: 267 file: salmonella_enterica_minia_contigs position: 62401 non-reversed
+name: 462 file: salmonella_enterica_minia_contigs position: 62230 non-reversed
+((((((((NODE_2_length_367481_cov_36.171952|1)|133)|43)|5)|661)|70)|175)|418):
+name: NODE_2_length_367481_cov_36.171952 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 1 file: salmonella_enterica_minia_contigs position: 209809 non-reversed
+name: 133 file: salmonella_enterica_minia_contigs position: 297733 reversed
+name: 43 file: salmonella_enterica_minia_contigs position: 313898 non-reversed
+name: 5 file: salmonella_enterica_minia_contigs position: 243839 reversed
+name: 661 file: salmonella_enterica_minia_contigs position: 123861 non-reversed
+name: 70 file: salmonella_enterica_minia_contigs position: 366809 reversed
+name: 175 file: salmonella_enterica_minia_contigs position: 177657 non-reversed
+name: 418 file: salmonella_enterica_minia_contigs position: 367050 non-reversed
+((((((((NODE_4_length_226762_cov_42.558025|74)|167)|138)|140)|585)|453)|349)|515):
+name: NODE_4_length_226762_cov_42.558025 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 74 file: salmonella_enterica_minia_contigs position: 88 reversed
+name: 167 file: salmonella_enterica_minia_contigs position: 58462 non-reversed
+name: 138 file: salmonella_enterica_minia_contigs position: 202498 reversed
+name: 140 file: salmonella_enterica_minia_contigs position: 381 non-reversed
+name: 585 file: salmonella_enterica_minia_contigs position: 97049 reversed
+name: 453 file: salmonella_enterica_minia_contigs position: 226680 non-reversed
+name: 349 file: salmonella_enterica_minia_contigs position: 97295 reversed
+name: 515 file: salmonella_enterica_minia_contigs position: 129361 non-reversed
+(((((NODE_33_length_48753_cov_32.300210|159)|522)|130)|671)|355):
+name: NODE_33_length_48753_cov_32.300210 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 159 file: salmonella_enterica_minia_contigs position: 11093 non-reversed
+name: 522 file: salmonella_enterica_minia_contigs position: 2576 reversed
+name: 130 file: salmonella_enterica_minia_contigs position: 47555 non-reversed
+name: 671 file: salmonella_enterica_minia_contigs position: 4382 reversed
+name: 355 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(((((NODE_55_length_24113_cov_26.126019|178)|542)|555)|755)|629):
+name: NODE_55_length_24113_cov_26.126019 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 178 file: salmonella_enterica_minia_contigs position: 83 non-reversed
+name: 542 file: salmonella_enterica_minia_contigs position: 15372 non-reversed
+name: 555 file: salmonella_enterica_minia_contigs position: 21791 non-reversed
+name: 755 file: salmonella_enterica_minia_contigs position: 21029 non-reversed
+name: 629 file: salmonella_enterica_minia_contigs position: 16220 non-reversed
+(((((NODE_65_length_13345_cov_25.908879|411)|302)|595)|807)|455):
+name: NODE_65_length_13345_cov_25.908879 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 411 file: salmonella_enterica_minia_contigs position: 6302 non-reversed
+name: 302 file: salmonella_enterica_minia_contigs position: 10245 reversed
+name: 595 file: salmonella_enterica_minia_contigs position: 6082 non-reversed
+name: 807 file: salmonella_enterica_minia_contigs position: 9455 reversed
+name: 455 file: salmonella_enterica_minia_contigs position: 36 non-reversed
+(((((NODE_6_length_175503_cov_35.313084|24)|32)|506)|530)|470):
+name: NODE_6_length_175503_cov_35.313084 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 24 file: salmonella_enterica_minia_contigs position: 15389 non-reversed
+name: 32 file: salmonella_enterica_minia_contigs position: 46983 reversed
+name: 506 file: salmonella_enterica_minia_contigs position: 133109 non-reversed
+name: 530 file: salmonella_enterica_minia_contigs position: 175346 reversed
+name: 470 file: salmonella_enterica_minia_contigs position: 15303 non-reversed
+(((((NODE_72_length_6233_cov_30.193957|190)|674)|136)|659)|248):
+name: NODE_72_length_6233_cov_30.193957 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 190 file: salmonella_enterica_minia_contigs position: 522 non-reversed
+name: 674 file: salmonella_enterica_minia_contigs position: 6027 reversed
+name: 136 file: salmonella_enterica_minia_contigs position: 5972 non-reversed
+name: 659 file: salmonella_enterica_minia_contigs position: 37 reversed
+name: 248 file: salmonella_enterica_minia_contigs position: 5892 non-reversed
+((((NODE_13_length_100248_cov_46.618962|6)|128)|473)|781):
+name: NODE_13_length_100248_cov_46.618962 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 6 file: salmonella_enterica_minia_contigs position: 450 non-reversed
+name: 128 file: salmonella_enterica_minia_contigs position: 82408 non-reversed
+name: 473 file: salmonella_enterica_minia_contigs position: 52214 non-reversed
+name: 781 file: salmonella_enterica_minia_contigs position: 258 non-reversed
+((((NODE_16_length_99834_cov_41.542378|72)|152)|39)|480):
+name: NODE_16_length_99834_cov_41.542378 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 72 file: salmonella_enterica_minia_contigs position: 2682 non-reversed
+name: 152 file: salmonella_enterica_minia_contigs position: 56213 non-reversed
+name: 39 file: salmonella_enterica_minia_contigs position: 93798 non-reversed
+name: 480 file: salmonella_enterica_minia_contigs position: 38 non-reversed
+((((NODE_21_length_93314_cov_39.657754|62)|148)|525)|796):
+name: NODE_21_length_93314_cov_39.657754 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 62 file: salmonella_enterica_minia_contigs position: 1786 non-reversed
+name: 148 file: salmonella_enterica_minia_contigs position: 81695 non-reversed
+name: 525 file: salmonella_enterica_minia_contigs position: 2 non-reversed
+name: 796 file: salmonella_enterica_minia_contigs position: 81463 non-reversed
+((((NODE_22_length_84795_cov_29.404377|71)|565)|613)|646):
+name: NODE_22_length_84795_cov_29.404377 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 71 file: salmonella_enterica_minia_contigs position: 3776 non-reversed
+name: 565 file: salmonella_enterica_minia_contigs position: 2493 non-reversed
+name: 613 file: salmonella_enterica_minia_contigs position: 47 non-reversed
+name: 646 file: salmonella_enterica_minia_contigs position: 972 non-reversed
+((((NODE_24_length_81076_cov_46.238065|98)|547)|773)|759):
+name: NODE_24_length_81076_cov_46.238065 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 98 file: salmonella_enterica_minia_contigs position: 162 reversed
+name: 547 file: salmonella_enterica_minia_contigs position: 36620 non-reversed
+name: 773 file: salmonella_enterica_minia_contigs position: 43 reversed
+name: 759 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+((((NODE_36_length_45039_cov_40.720364|59)|161)|509)|658):
+name: NODE_36_length_45039_cov_40.720364 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 59 file: salmonella_enterica_minia_contigs position: 7108 non-reversed
+name: 161 file: salmonella_enterica_minia_contigs position: 38002 reversed
+name: 509 file: salmonella_enterica_minia_contigs position: 44811 non-reversed
+name: 658 file: salmonella_enterica_minia_contigs position: 44939 non-reversed
+((((NODE_41_length_35532_cov_42.795262|113)|367)|632)|169):
+name: NODE_41_length_35532_cov_42.795262 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 113 file: salmonella_enterica_minia_contigs position: 269 non-reversed
+name: 367 file: salmonella_enterica_minia_contigs position: 840 reversed
+name: 632 file: salmonella_enterica_minia_contigs position: 23385 non-reversed
+name: 169 file: salmonella_enterica_minia_contigs position: 35493 non-reversed
+((((NODE_43_length_30584_cov_39.083620|135)|111)|748)|340):
+name: NODE_43_length_30584_cov_39.083620 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 135 file: salmonella_enterica_minia_contigs position: 10307 reversed
+name: 111 file: salmonella_enterica_minia_contigs position: 20394 non-reversed
+name: 748 file: salmonella_enterica_minia_contigs position: 30506 reversed
+name: 340 file: salmonella_enterica_minia_contigs position: 20334 non-reversed
+((((NODE_67_length_10344_cov_22.624038|166)|770)|757)|691):
+name: NODE_67_length_10344_cov_22.624038 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 166 file: salmonella_enterica_minia_contigs position: 397 reversed
+name: 770 file: salmonella_enterica_minia_contigs position: 1532 non-reversed
+name: 757 file: salmonella_enterica_minia_contigs position: 37 reversed
+name: 691 file: salmonella_enterica_minia_contigs position: 10092 non-reversed
+(((NODE_10_length_105269_cov_42.348705|97)|54)|126):
+name: NODE_10_length_105269_cov_42.348705 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 97 file: salmonella_enterica_minia_contigs position: 33327 non-reversed
+name: 54 file: salmonella_enterica_minia_contigs position: 18 non-reversed
+name: 126 file: salmonella_enterica_minia_contigs position: 94278 non-reversed
+(((NODE_11_length_104404_cov_43.799074|93)|22)|198):
+name: NODE_11_length_104404_cov_43.799074 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 93 file: salmonella_enterica_minia_contigs position: 44112 non-reversed
+name: 22 file: salmonella_enterica_minia_contigs position: 60397 reversed
+name: 198 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(((NODE_23_length_81423_cov_48.075701|114)|48)|78):
+name: NODE_23_length_81423_cov_48.075701 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 114 file: salmonella_enterica_minia_contigs position: 112 non-reversed
+name: 48 file: salmonella_enterica_minia_contigs position: 34849 non-reversed
+name: 78 file: salmonella_enterica_minia_contigs position: 62739 non-reversed
+(((NODE_38_length_42607_cov_36.162544|49)|158)|790):
+name: NODE_38_length_42607_cov_36.162544 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 49 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 158 file: salmonella_enterica_minia_contigs position: 738 reversed
+name: 790 file: salmonella_enterica_minia_contigs position: 41933 non-reversed
+(((NODE_40_length_35710_cov_42.098701|2)|84)|368):
+name: NODE_40_length_35710_cov_42.098701 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 2 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 84 file: salmonella_enterica_minia_contigs position: 39 reversed
+name: 368 file: salmonella_enterica_minia_contigs position: 30290 non-reversed
+(((NODE_42_length_32737_cov_33.824923|4)|41)|504):
+name: NODE_42_length_32737_cov_33.824923 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 4 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 41 file: salmonella_enterica_minia_contigs position: 6030 reversed
+name: 504 file: salmonella_enterica_minia_contigs position: 32678 non-reversed
+(((NODE_46_length_28424_cov_35.704025|141)|495)|797):
+name: NODE_46_length_28424_cov_35.704025 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 141 file: salmonella_enterica_minia_contigs position: 11112 non-reversed
+name: 495 file: salmonella_enterica_minia_contigs position: 17337 reversed
+name: 797 file: salmonella_enterica_minia_contigs position: 10942 non-reversed
+(((NODE_52_length_24628_cov_36.411755|361)|513)|638):
+name: NODE_52_length_24628_cov_36.411755 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 361 file: salmonella_enterica_minia_contigs position: 9617 non-reversed
+name: 513 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: 638 file: salmonella_enterica_minia_contigs position: 9530 non-reversed
+(((NODE_66_length_12874_cov_11.941627|214)|644)|599):
+name: NODE_66_length_12874_cov_11.941627 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 214 file: salmonella_enterica_minia_contigs position: 40 non-reversed
+name: 644 file: salmonella_enterica_minia_contigs position: 1898 reversed
+name: 599 file: salmonella_enterica_minia_contigs position: 8902 non-reversed
+(((NODE_70_length_9751_cov_18.356316|528)|410)|747):
+name: NODE_70_length_9751_cov_18.356316 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 528 file: salmonella_enterica_minia_contigs position: 2341 non-reversed
+name: 410 file: salmonella_enterica_minia_contigs position: 8340 reversed
+name: 747 file: salmonella_enterica_minia_contigs position: 9213 non-reversed
+(((NODE_77_length_2966_cov_16.786777|536)|168)|416):
+name: NODE_77_length_2966_cov_16.786777 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 536 file: salmonella_enterica_minia_contigs position: 49 non-reversed
+name: 168 file: salmonella_enterica_minia_contigs position: 1802 non-reversed
+name: 416 file: salmonella_enterica_minia_contigs position: 1499 non-reversed
+(((NODE_8_length_116626_cov_39.287527|100)|8)|763):
+name: NODE_8_length_116626_cov_39.287527 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 100 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 8 file: salmonella_enterica_minia_contigs position: 0 reversed
+name: 763 file: salmonella_enterica_minia_contigs position: 75673 non-reversed
+(((NODE_91_length_740_cov_85.279035|312)|311)|435):
+name: NODE_91_length_740_cov_85.279035 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 312 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: 311 file: salmonella_enterica_minia_contigs position: 185 non-reversed
+name: 435 file: salmonella_enterica_minia_contigs position: 432 non-reversed
+(((NODE_94_length_705_cov_33.162420|662)|437)|382):
+name: NODE_94_length_705_cov_33.162420 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 662 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 437 file: salmonella_enterica_minia_contigs position: 37 reversed
+name: 382 file: salmonella_enterica_minia_contigs position: 376 non-reversed
+(((NODE_9_length_113557_cov_41.105261|26)|45)|174):
+name: NODE_9_length_113557_cov_41.105261 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 26 file: salmonella_enterica_minia_contigs position: 56187 non-reversed
+name: 45 file: salmonella_enterica_minia_contigs position: 68 non-reversed
+name: 174 file: salmonella_enterica_minia_contigs position: 50490 non-reversed
+((118|NODE_73_length_5782_cov_76.321122)|NODE_172_length_83_cov_50.833333):
+name: 118 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_73_length_5782_cov_76.321122 file: salmonella_enterica_spades_contigs position: 413 non-reversed
+name: NODE_172_length_83_cov_50.833333 file: salmonella_enterica_spades_contigs position: 329 reversed
+((197|NODE_87_length_1022_cov_360.821164)|NODE_169_length_92_cov_152.133333):
+name: 197 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_87_length_1022_cov_360.821164 file: salmonella_enterica_spades_contigs position: 61 reversed
+name: NODE_169_length_92_cov_152.133333 file: salmonella_enterica_spades_contigs position: 1086 non-reversed
+((206|NODE_79_length_2357_cov_366.972807)|NODE_177_length_78_cov_104.000000):
+name: 206 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_79_length_2357_cov_366.972807 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: NODE_177_length_78_cov_104.000000 file: salmonella_enterica_spades_contigs position: 2623 non-reversed
+((300|((NODE_74_length_4234_cov_43.641568|223)|326))|352):
+name: 300 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_74_length_4234_cov_43.641568 file: salmonella_enterica_spades_contigs position: 165 reversed
+name: 223 file: salmonella_enterica_minia_contigs position: 690 non-reversed
+name: 326 file: salmonella_enterica_minia_contigs position: 3880 reversed
+name: 352 file: salmonella_enterica_minia_contigs position: 4360 non-reversed
+((756|((((((NODE_12_length_101238_cov_38.765414|110)|106)|14)|284)|204)|772))|309):
+name: 756 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_12_length_101238_cov_38.765414 file: salmonella_enterica_spades_contigs position: 1 non-reversed
+name: 110 file: salmonella_enterica_minia_contigs position: 3249 non-reversed
+name: 106 file: salmonella_enterica_minia_contigs position: 59580 non-reversed
+name: 14 file: salmonella_enterica_minia_contigs position: 156 non-reversed
+name: 284 file: salmonella_enterica_minia_contigs position: 101011 non-reversed
+name: 204 file: salmonella_enterica_minia_contigs position: 3021 non-reversed
+name: 772 file: salmonella_enterica_minia_contigs position: 3177 non-reversed
+name: 309 file: salmonella_enterica_minia_contigs position: 101200 non-reversed
+((NODE_103_length_449_cov_164.728495|425)|263):
+name: NODE_103_length_449_cov_164.728495 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 425 file: salmonella_enterica_minia_contigs position: 37 reversed
+name: 263 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+((NODE_106_length_365_cov_94.614583|682)|608):
+name: NODE_106_length_365_cov_94.614583 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 682 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 608 file: salmonella_enterica_minia_contigs position: 288 non-reversed
+((NODE_127_length_235_cov_39.069620|449)|193):
+name: NODE_127_length_235_cov_39.069620 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 449 file: salmonella_enterica_minia_contigs position: 158 non-reversed
+name: 193 file: salmonella_enterica_minia_contigs position: 82 non-reversed
+((NODE_143_length_167_cov_29.400000|181)|NODE_167_length_97_cov_81.700000):
+name: NODE_143_length_167_cov_29.400000 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 181 file: salmonella_enterica_minia_contigs position: 23 non-reversed
+name: NODE_167_length_97_cov_81.700000 file: salmonella_enterica_spades_contigs position: 170 reversed
+((NODE_154_length_142_cov_70.830769|350)|800):
+name: NODE_154_length_142_cov_70.830769 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 350 file: salmonella_enterica_minia_contigs position: 65 non-reversed
+name: 800 file: salmonella_enterica_minia_contigs position: 116 non-reversed
+((NODE_15_length_99930_cov_34.681271|25)|180):
+name: NODE_15_length_99930_cov_34.681271 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 25 file: salmonella_enterica_minia_contigs position: 61223 reversed
+name: 180 file: salmonella_enterica_minia_contigs position: 67363 non-reversed
+((NODE_17_length_97015_cov_37.440519|58)|351):
+name: NODE_17_length_97015_cov_37.440519 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 58 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 351 file: salmonella_enterica_minia_contigs position: 96984 non-reversed
+((NODE_19_length_95124_cov_33.292487|53)|31):
+name: NODE_19_length_95124_cov_33.292487 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 53 file: salmonella_enterica_minia_contigs position: 17727 reversed
+name: 31 file: salmonella_enterica_minia_contigs position: 77690 non-reversed
+((NODE_39_length_42110_cov_44.314348|66)|412):
+name: NODE_39_length_42110_cov_44.314348 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 66 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+name: 412 file: salmonella_enterica_minia_contigs position: 35771 non-reversed
+((NODE_48_length_26310_cov_43.542561|7)|341):
+name: NODE_48_length_26310_cov_43.542561 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 7 file: salmonella_enterica_minia_contigs position: 195 reversed
+name: 341 file: salmonella_enterica_minia_contigs position: 26233 non-reversed
+((NODE_50_length_25405_cov_38.014056|96)|665):
+name: NODE_50_length_25405_cov_38.014056 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 96 file: salmonella_enterica_minia_contigs position: 11043 reversed
+name: 665 file: salmonella_enterica_minia_contigs position: 25217 non-reversed
+((NODE_59_length_17296_cov_14.181021|363)|604):
+name: NODE_59_length_17296_cov_14.181021 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 363 file: salmonella_enterica_minia_contigs position: 0 reversed
+name: 604 file: salmonella_enterica_minia_contigs position: 33 non-reversed
+((NODE_60_length_17254_cov_33.680969|257)|684):
+name: NODE_60_length_17254_cov_33.680969 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 257 file: salmonella_enterica_minia_contigs position: 1284 non-reversed
+name: 684 file: salmonella_enterica_minia_contigs position: 364 non-reversed
+((NODE_62_length_14420_cov_38.650003|139)|652):
+name: NODE_62_length_14420_cov_38.650003 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 139 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: 652 file: salmonella_enterica_minia_contigs position: 13572 non-reversed
+((NODE_63_length_13515_cov_39.596741|35)|679):
+name: NODE_63_length_13515_cov_39.596741 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 35 file: salmonella_enterica_minia_contigs position: 205 reversed
+name: 679 file: salmonella_enterica_minia_contigs position: 13343 non-reversed
+((NODE_64_length_13494_cov_52.838414|85)|758):
+name: NODE_64_length_13494_cov_52.838414 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 85 file: salmonella_enterica_minia_contigs position: 747 reversed
+name: 758 file: salmonella_enterica_minia_contigs position: 13304 non-reversed
+((NODE_68_length_9912_cov_33.939807|324)|232):
+name: NODE_68_length_9912_cov_33.939807 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 324 file: salmonella_enterica_minia_contigs position: 252 non-reversed
+name: 232 file: salmonella_enterica_minia_contigs position: 6305 non-reversed
+((NODE_75_length_4161_cov_278.255387|793)|209):
+name: NODE_75_length_4161_cov_278.255387 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 793 file: salmonella_enterica_minia_contigs position: 3289 non-reversed
+name: 209 file: salmonella_enterica_minia_contigs position: 877 non-reversed
+((NODE_84_length_1197_cov_2.782143|550)|612):
+name: NODE_84_length_1197_cov_2.782143 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 550 file: salmonella_enterica_minia_contigs position: 493 non-reversed
+name: 612 file: salmonella_enterica_minia_contigs position: 133 non-reversed
+((NODE_88_length_981_cov_240.938053|210)|333):
+name: NODE_88_length_981_cov_240.938053 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 210 file: salmonella_enterica_minia_contigs position: 142 reversed
+name: 333 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+((NODE_96_length_641_cov_87.413121|239)|643):
+name: NODE_96_length_641_cov_87.413121 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 239 file: salmonella_enterica_minia_contigs position: 354 non-reversed
+name: 643 file: salmonella_enterica_minia_contigs position: 784 non-reversed
+(103|((NODE_139_length_177_cov_39.560000|266)|399)):
+name: 103 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_139_length_177_cov_39.560000 file: salmonella_enterica_spades_contigs position: 39205 reversed
+name: 266 file: salmonella_enterica_minia_contigs position: 39242 non-reversed
+name: 399 file: salmonella_enterica_minia_contigs position: 39347 non-reversed
+(105|(NODE_44_length_30265_cov_43.070922|79)):
+name: 105 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_44_length_30265_cov_43.070922 file: salmonella_enterica_spades_contigs position: 22360 non-reversed
+name: 79 file: salmonella_enterica_minia_contigs position: 29909 non-reversed
+(112|((((NODE_7_length_150031_cov_44.022120|134)|778)|740)|464)):
+name: 112 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_7_length_150031_cov_44.022120 file: salmonella_enterica_spades_contigs position: 378 non-reversed
+name: 134 file: salmonella_enterica_minia_contigs position: 61600 non-reversed
+name: 778 file: salmonella_enterica_minia_contigs position: 150227 non-reversed
+name: 740 file: salmonella_enterica_minia_contigs position: 46376 non-reversed
+name: 464 file: salmonella_enterica_minia_contigs position: 46738 non-reversed
+(153|((((((NODE_26_length_72853_cov_30.149912|95)|371)|17)|343)|471)|127)):
+name: 153 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_26_length_72853_cov_30.149912 file: salmonella_enterica_spades_contigs position: 16477 non-reversed
+name: 95 file: salmonella_enterica_minia_contigs position: 38450 non-reversed
+name: 371 file: salmonella_enterica_minia_contigs position: 78222 non-reversed
+name: 17 file: salmonella_enterica_minia_contigs position: 16514 non-reversed
+name: 343 file: salmonella_enterica_minia_contigs position: 27783 non-reversed
+name: 471 file: salmonella_enterica_minia_contigs position: 27694 non-reversed
+name: 127 file: salmonella_enterica_minia_contigs position: 78221 non-reversed
+(18|(NODE_69_length_9816_cov_44.693808|137)):
+name: 18 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_69_length_9816_cov_44.693808 file: salmonella_enterica_spades_contigs position: 1198 non-reversed
+name: 137 file: salmonella_enterica_minia_contigs position: 1235 non-reversed
+(191|NODE_97_length_611_cov_358.691011):
+name: 191 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_97_length_611_cov_358.691011 file: salmonella_enterica_spades_contigs position: 51 reversed
+(215|((NODE_57_length_19757_cov_38.591463|47)|109)):
+name: 215 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_57_length_19757_cov_38.591463 file: salmonella_enterica_spades_contigs position: 75 non-reversed
+name: 47 file: salmonella_enterica_minia_contigs position: 3122 non-reversed
+name: 109 file: salmonella_enterica_minia_contigs position: 278 non-reversed
+(249|(NODE_99_length_539_cov_23.132035|600)):
+name: 249 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_99_length_539_cov_23.132035 file: salmonella_enterica_spades_contigs position: 2494 reversed
+name: 600 file: salmonella_enterica_minia_contigs position: 2535 non-reversed
+(281|(NODE_101_length_530_cov_55.724062|532)):
+name: 281 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_101_length_530_cov_55.724062 file: salmonella_enterica_spades_contigs position: 83 non-reversed
+name: 532 file: salmonella_enterica_minia_contigs position: 342 non-reversed
+(285|NODE_132_length_221_cov_50.784722):
+name: 285 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_132_length_221_cov_50.784722 file: salmonella_enterica_spades_contigs position: 36 reversed
+(401|((NODE_133_length_213_cov_94.419118|221)|419)):
+name: 401 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_133_length_213_cov_94.419118 file: salmonella_enterica_spades_contigs position: 10 reversed
+name: 221 file: salmonella_enterica_minia_contigs position: 50 non-reversed
+name: 419 file: salmonella_enterica_minia_contigs position: 50 reversed
+(407|NODE_147_length_155_cov_165.474359):
+name: 407 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_147_length_155_cov_165.474359 file: salmonella_enterica_spades_contigs position: 50 non-reversed
+(443|((((((NODE_30_length_58476_cov_38.600935|129)|171)|636)|296)|444)|537)):
+name: 443 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_30_length_58476_cov_38.600935 file: salmonella_enterica_spades_contigs position: 95 non-reversed
+name: 129 file: salmonella_enterica_minia_contigs position: 536 non-reversed
+name: 171 file: salmonella_enterica_minia_contigs position: 44497 non-reversed
+name: 636 file: salmonella_enterica_minia_contigs position: 56122 non-reversed
+name: 296 file: salmonella_enterica_minia_contigs position: 132 non-reversed
+name: 444 file: salmonella_enterica_minia_contigs position: 359 non-reversed
+name: 537 file: salmonella_enterica_minia_contigs position: 57521 non-reversed
+(476|NODE_159_length_126_cov_53.877551):
+name: 476 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_159_length_126_cov_53.877551 file: salmonella_enterica_spades_contigs position: 2 reversed
+(546|NODE_179_length_78_cov_76.000000):
+name: 546 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_179_length_78_cov_76.000000 file: salmonella_enterica_spades_contigs position: 3022 reversed
+(574|(((((((NODE_32_length_50791_cov_42.180759|77)|52)|256)|543)|438)|373)|201)):
+name: 574 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_32_length_50791_cov_42.180759 file: salmonella_enterica_spades_contigs position: 2 non-reversed
+name: 77 file: salmonella_enterica_minia_contigs position: 870 non-reversed
+name: 52 file: salmonella_enterica_minia_contigs position: 29641 non-reversed
+name: 256 file: salmonella_enterica_minia_contigs position: 122 non-reversed
+name: 543 file: salmonella_enterica_minia_contigs position: 710 non-reversed
+name: 438 file: salmonella_enterica_minia_contigs position: 608 non-reversed
+name: 373 file: salmonella_enterica_minia_contigs position: 50544 non-reversed
+name: 201 file: salmonella_enterica_minia_contigs position: 50617 non-reversed
+(750|(NODE_47_length_27585_cov_35.575505|157)):
+name: 750 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_47_length_27585_cov_35.575505 file: salmonella_enterica_spades_contigs position: 2 non-reversed
+name: 157 file: salmonella_enterica_minia_contigs position: 7301 non-reversed
+(76|((((NODE_25_length_75514_cov_32.487042|236)|235)|709)|357)):
+name: 76 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_25_length_75514_cov_32.487042 file: salmonella_enterica_spades_contigs position: 13582 non-reversed
+name: 236 file: salmonella_enterica_minia_contigs position: 32705 non-reversed
+name: 235 file: salmonella_enterica_minia_contigs position: 62633 non-reversed
+name: 709 file: salmonella_enterica_minia_contigs position: 13746 non-reversed
+name: 357 file: salmonella_enterica_minia_contigs position: 89015 non-reversed
+(789|(NODE_45_length_28801_cov_40.193601|186)):
+name: 789 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+name: NODE_45_length_28801_cov_40.193601 file: salmonella_enterica_spades_contigs position: 137 non-reversed
+name: 186 file: salmonella_enterica_minia_contigs position: 291 non-reversed
+(NODE_100_length_537_cov_3.560870|765):
+name: NODE_100_length_537_cov_3.560870 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 765 file: salmonella_enterica_minia_contigs position: 128 non-reversed
+(NODE_102_length_527_cov_4.602222|634):
+name: NODE_102_length_527_cov_4.602222 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 634 file: salmonella_enterica_minia_contigs position: 1 non-reversed
+(NODE_104_length_434_cov_1.243697|640):
+name: NODE_104_length_434_cov_1.243697 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 640 file: salmonella_enterica_minia_contigs position: 95 non-reversed
+(NODE_105_length_392_cov_102.892063|617):
+name: NODE_105_length_392_cov_102.892063 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 617 file: salmonella_enterica_minia_contigs position: 220 non-reversed
+(NODE_107_length_326_cov_40.116466|392):
+name: NODE_107_length_326_cov_40.116466 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 392 file: salmonella_enterica_minia_contigs position: 178 non-reversed
+(NODE_108_length_312_cov_36.161702|754):
+name: NODE_108_length_312_cov_36.161702 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 754 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_109_length_308_cov_51.220779|732):
+name: NODE_109_length_308_cov_51.220779 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 732 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_110_length_302_cov_38.768889|489):
+name: NODE_110_length_302_cov_38.768889 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 489 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_111_length_287_cov_2.333333|635):
+name: NODE_111_length_287_cov_2.333333 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 635 file: salmonella_enterica_minia_contigs position: 130 non-reversed
+(NODE_112_length_286_cov_51.267943|529):
+name: NODE_112_length_286_cov_51.267943 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 529 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_114_length_283_cov_36.762136|626):
+name: NODE_114_length_283_cov_36.762136 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 626 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_117_length_271_cov_41.309278|683):
+name: NODE_117_length_271_cov_41.309278 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 683 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_121_length_261_cov_44.271739|703):
+name: NODE_121_length_261_cov_44.271739 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 703 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_125_length_241_cov_55.396341|445):
+name: NODE_125_length_241_cov_55.396341 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 445 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_131_length_224_cov_87.591837|534):
+name: NODE_131_length_224_cov_87.591837 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 534 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_134_length_205_cov_125.140625|334):
+name: NODE_134_length_205_cov_125.140625 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 334 file: salmonella_enterica_minia_contigs position: 23 non-reversed
+(NODE_135_length_204_cov_73.700787|335):
+name: NODE_135_length_204_cov_73.700787 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 335 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_137_length_200_cov_38.943089|570):
+name: NODE_137_length_200_cov_38.943089 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 570 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_138_length_187_cov_35.045455|501):
+name: NODE_138_length_187_cov_35.045455 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 501 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_140_length_176_cov_75.727273|616):
+name: NODE_140_length_176_cov_75.727273 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 616 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_141_length_176_cov_31.747475|465):
+name: NODE_141_length_176_cov_31.747475 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 465 file: salmonella_enterica_minia_contigs position: 66 non-reversed
+(NODE_142_length_174_cov_48.134021|700):
+name: NODE_142_length_174_cov_48.134021 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 700 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_144_length_165_cov_124.534091|474):
+name: NODE_144_length_165_cov_124.534091 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 474 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_145_length_159_cov_171.536585|477):
+name: NODE_145_length_159_cov_171.536585 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 477 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_149_length_153_cov_23.710526|216):
+name: NODE_149_length_153_cov_23.710526 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 216 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_150_length_153_cov_19.105263|21):
+name: NODE_150_length_153_cov_19.105263 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 21 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_151_length_150_cov_65.575342|801):
+name: NODE_151_length_150_cov_65.575342 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 801 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_153_length_144_cov_82.164179|544):
+name: NODE_153_length_144_cov_82.164179 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 544 file: salmonella_enterica_minia_contigs position: 98 non-reversed
+(NODE_156_length_136_cov_66.220339|436):
+name: NODE_156_length_136_cov_66.220339 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 436 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_161_length_122_cov_155.155556|213):
+name: NODE_161_length_122_cov_155.155556 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 213 file: salmonella_enterica_minia_contigs position: 11 non-reversed
+(NODE_162_length_116_cov_7.179487|286):
+name: NODE_162_length_116_cov_7.179487 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 286 file: salmonella_enterica_minia_contigs position: 18 non-reversed
+(NODE_163_length_107_cov_30.266667|274):
+name: NODE_163_length_107_cov_30.266667 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 274 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_165_length_102_cov_149.760000|354):
+name: NODE_165_length_102_cov_149.760000 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 354 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_170_length_88_cov_206.454545|512):
+name: NODE_170_length_88_cov_206.454545 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 512 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_171_length_85_cov_117.875000|642):
+name: NODE_171_length_85_cov_117.875000 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 642 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_175_length_79_cov_82.000000|475):
+name: NODE_175_length_79_cov_82.000000 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 475 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_29_length_60474_cov_43.454509|34):
+name: NODE_29_length_60474_cov_43.454509 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 34 file: salmonella_enterica_minia_contigs position: 18705 non-reversed
+(NODE_31_length_52568_cov_27.181250|44):
+name: NODE_31_length_52568_cov_27.181250 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 44 file: salmonella_enterica_minia_contigs position: 90 non-reversed
+(NODE_34_length_47363_cov_48.056380|75):
+name: NODE_34_length_47363_cov_48.056380 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 75 file: salmonella_enterica_minia_contigs position: 41 non-reversed
+(NODE_37_length_43974_cov_40.884366|46):
+name: NODE_37_length_43974_cov_40.884366 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 46 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_49_length_25417_cov_45.702328|123):
+name: NODE_49_length_25417_cov_45.702328 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 123 file: salmonella_enterica_minia_contigs position: 315 non-reversed
+(NODE_51_length_24844_cov_30.444624|173):
+name: NODE_51_length_24844_cov_30.444624 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 173 file: salmonella_enterica_minia_contigs position: 334 non-reversed
+(NODE_53_length_24592_cov_38.526698|69):
+name: NODE_53_length_24592_cov_38.526698 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 69 file: salmonella_enterica_minia_contigs position: 11 non-reversed
+(NODE_54_length_24255_cov_40.429233|151):
+name: NODE_54_length_24255_cov_40.429233 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 151 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_56_length_23109_cov_38.013112|40):
+name: NODE_56_length_23109_cov_38.013112 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 40 file: salmonella_enterica_minia_contigs position: 5 non-reversed
+(NODE_58_length_18667_cov_45.794244|142):
+name: NODE_58_length_18667_cov_45.794244 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 142 file: salmonella_enterica_minia_contigs position: 409 non-reversed
+(NODE_61_length_14971_cov_40.539143|143):
+name: NODE_61_length_14971_cov_40.539143 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 143 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_71_length_9537_cov_16.527590|348):
+name: NODE_71_length_9537_cov_16.527590 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 348 file: salmonella_enterica_minia_contigs position: 2330 non-reversed
+(NODE_76_length_3980_cov_17.780938|461):
+name: NODE_76_length_3980_cov_17.780938 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 461 file: salmonella_enterica_minia_contigs position: 8 non-reversed
+(NODE_78_length_2474_cov_275.230705|207):
+name: NODE_78_length_2474_cov_275.230705 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 207 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_80_length_1700_cov_367.058534|212):
+name: NODE_80_length_1700_cov_367.058534 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 212 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_81_length_1550_cov_3.591989|586):
+name: NODE_81_length_1550_cov_3.591989 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 586 file: salmonella_enterica_minia_contigs position: 588 non-reversed
+(NODE_82_length_1480_cov_37.898788|666):
+name: NODE_82_length_1480_cov_37.898788 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 666 file: salmonella_enterica_minia_contigs position: 109 non-reversed
+(NODE_83_length_1415_cov_19.606876|667):
+name: NODE_83_length_1415_cov_19.606876 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 667 file: salmonella_enterica_minia_contigs position: 212 non-reversed
+(NODE_86_length_1142_cov_5.751174|720):
+name: NODE_86_length_1142_cov_5.751174 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 720 file: salmonella_enterica_minia_contigs position: 58 non-reversed
+(NODE_89_length_923_cov_301.774232|170):
+name: NODE_89_length_923_cov_301.774232 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 170 file: salmonella_enterica_minia_contigs position: 37 non-reversed
+(NODE_90_length_816_cov_2.956698|698):
+name: NODE_90_length_816_cov_2.956698 file: salmonella_enterica_spades_contigs position: 0 reversed
+name: 698 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_92_length_731_cov_4.030581|551):
+name: NODE_92_length_731_cov_4.030581 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 551 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_93_length_713_cov_271.746855|187):
+name: NODE_93_length_713_cov_271.746855 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 187 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_95_length_652_cov_9.333913|676):
+name: NODE_95_length_652_cov_9.333913 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 676 file: salmonella_enterica_minia_contigs position: 0 non-reversed
+(NODE_98_length_609_cov_98.706767|132):
+name: NODE_98_length_609_cov_98.706767 file: salmonella_enterica_spades_contigs position: 0 non-reversed
+name: 132 file: salmonella_enterica_minia_contigs position: 355 non-reversed

@@ -1,0 +1,607 @@
+(((((((((((NODE_50_length_25248_cov_30.542810|120)|283)|366)|398)|306)|409)|419)|322)|354)|348)|320):
+name: NODE_50_length_25248_cov_30.542810 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 120 file: escherichia_coli_minia_contigs position: 5517 non-reversed
+name: 283 file: escherichia_coli_minia_contigs position: 21203 reversed
+name: 366 file: escherichia_coli_minia_contigs position: 18870 non-reversed
+name: 398 file: escherichia_coli_minia_contigs position: 12226 reversed
+name: 306 file: escherichia_coli_minia_contigs position: 10704 non-reversed
+name: 409 file: escherichia_coli_minia_contigs position: 3362 reversed
+name: 419 file: escherichia_coli_minia_contigs position: 23393 non-reversed
+name: 322 file: escherichia_coli_minia_contigs position: 2632 reversed
+name: 354 file: escherichia_coli_minia_contigs position: 9999 non-reversed
+name: 348 file: escherichia_coli_minia_contigs position: 15569 reversed
+name: 320 file: escherichia_coli_minia_contigs position: 2047 non-reversed
+(((((((((NODE_58_length_17077_cov_32.639760|415)|256)|267)|167)|274)|406)|401)|324)|266):
+name: NODE_58_length_17077_cov_32.639760 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 415 file: escherichia_coli_minia_contigs position: 14497 non-reversed
+name: 256 file: escherichia_coli_minia_contigs position: 10514 reversed
+name: 267 file: escherichia_coli_minia_contigs position: 3517 non-reversed
+name: 167 file: escherichia_coli_minia_contigs position: 5907 reversed
+name: 274 file: escherichia_coli_minia_contigs position: 7673 non-reversed
+name: 406 file: escherichia_coli_minia_contigs position: 3642 reversed
+name: 401 file: escherichia_coli_minia_contigs position: 13710 non-reversed
+name: 324 file: escherichia_coli_minia_contigs position: 16719 reversed
+name: 266 file: escherichia_coli_minia_contigs position: 2370 non-reversed
+(((((((NODE_67_length_9789_cov_25.152764|147)|391)|317)|114)|405)|284)|402):
+name: NODE_67_length_9789_cov_25.152764 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 147 file: escherichia_coli_minia_contigs position: 6111 non-reversed
+name: 391 file: escherichia_coli_minia_contigs position: 6716 reversed
+name: 317 file: escherichia_coli_minia_contigs position: 4725 non-reversed
+name: 114 file: escherichia_coli_minia_contigs position: 5200 reversed
+name: 405 file: escherichia_coli_minia_contigs position: 1456 non-reversed
+name: 284 file: escherichia_coli_minia_contigs position: 277 reversed
+name: 402 file: escherichia_coli_minia_contigs position: 247 non-reversed
+((((((NODE_64_length_11220_cov_30.000269|169)|281)|260)|278)|298)|50):
+name: NODE_64_length_11220_cov_30.000269 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 169 file: escherichia_coli_minia_contigs position: 8643 non-reversed
+name: 281 file: escherichia_coli_minia_contigs position: 243 non-reversed
+name: 260 file: escherichia_coli_minia_contigs position: 7054 non-reversed
+name: 278 file: escherichia_coli_minia_contigs position: 2547 non-reversed
+name: 298 file: escherichia_coli_minia_contigs position: 5231 non-reversed
+name: 50 file: escherichia_coli_minia_contigs position: 2240 non-reversed
+(((((NODE_6_length_176482_cov_164.463761|41)|(347|NODE_98_length_1004_cov_73.506849))|185)|379)|138):
+name: NODE_6_length_176482_cov_164.463761 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 41 file: escherichia_coli_minia_contigs position: 191 non-reversed
+name: 347 file: escherichia_coli_minia_contigs position: 535 reversed
+name: NODE_98_length_1004_cov_73.506849 file: escherichia_coli_spades_contigs position: 564 reversed
+name: 185 file: escherichia_coli_minia_contigs position: 174413 non-reversed
+name: 379 file: escherichia_coli_minia_contigs position: 176219 non-reversed
+name: 138 file: escherichia_coli_minia_contigs position: 176387 non-reversed
+(((211|NODE_149_length_155_cov_58.570000)|NODE_210_length_57_cov_260.500000)|NODE_150_length_153_cov_135.204082):
+name: 211 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_149_length_155_cov_58.570000 file: escherichia_coli_spades_contigs position: 116 non-reversed
+name: NODE_210_length_57_cov_260.500000 file: escherichia_coli_spades_contigs position: 18 non-reversed
+name: NODE_150_length_153_cov_135.204082 file: escherichia_coli_spades_contigs position: 322 reversed
+(((NODE_11_length_117595_cov_68.854484|204)|9)|23):
+name: NODE_11_length_117595_cov_68.854484 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 204 file: escherichia_coli_minia_contigs position: 59730 non-reversed
+name: 9 file: escherichia_coli_minia_contigs position: 57900 non-reversed
+name: 23 file: escherichia_coli_minia_contigs position: 75411 non-reversed
+(((NODE_13_length_105685_cov_117.299574|250)|314)|1):
+name: NODE_13_length_105685_cov_117.299574 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 250 file: escherichia_coli_minia_contigs position: 7906 non-reversed
+name: 314 file: escherichia_coli_minia_contigs position: 105445 reversed
+name: 1 file: escherichia_coli_minia_contigs position: 8147 non-reversed
+(((NODE_4_length_204760_cov_81.298522|(7|NODE_33_length_42727_cov_106.611549))|37)|404):
+name: NODE_4_length_204760_cov_81.298522 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 7 file: escherichia_coli_minia_contigs position: 151815 non-reversed
+name: NODE_33_length_42727_cov_106.611549 file: escherichia_coli_spades_contigs position: 159862 non-reversed
+name: 37 file: escherichia_coli_minia_contigs position: 63797 non-reversed
+name: 404 file: escherichia_coli_minia_contigs position: 204587 non-reversed
+(((NODE_7_length_157044_cov_90.851009|44)|(34|NODE_46_length_30843_cov_108.621184))|337):
+name: NODE_7_length_157044_cov_90.851009 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 44 file: escherichia_coli_minia_contigs position: 59079 non-reversed
+name: 34 file: escherichia_coli_minia_contigs position: 126012 reversed
+name: NODE_46_length_30843_cov_108.621184 file: escherichia_coli_spades_contigs position: 126041 reversed
+name: 337 file: escherichia_coli_minia_contigs position: 156989 non-reversed
+((174|NODE_119_length_300_cov_161.693878)|NODE_203_length_60_cov_155.000000):
+name: 174 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_119_length_300_cov_161.693878 file: escherichia_coli_spades_contigs position: 590 reversed
+name: NODE_203_length_60_cov_155.000000 file: escherichia_coli_spades_contigs position: 1509 non-reversed
+((198|NODE_198_length_63_cov_193.500000)|NODE_205_length_59_cov_63.000000):
+name: 198 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_198_length_63_cov_193.500000 file: escherichia_coli_spades_contigs position: 23 non-reversed
+name: NODE_205_length_59_cov_63.000000 file: escherichia_coli_spades_contigs position: 216 reversed
+((203|NODE_94_length_1144_cov_156.063361)|NODE_137_length_178_cov_161.886179):
+name: 203 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_94_length_1144_cov_156.063361 file: escherichia_coli_spades_contigs position: 5 reversed
+name: NODE_137_length_178_cov_161.886179 file: escherichia_coli_spades_contigs position: 1364 non-reversed
+((236|NODE_140_length_169_cov_90.728070)|NODE_196_length_63_cov_291.500000):
+name: 236 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_140_length_169_cov_90.728070 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: NODE_196_length_63_cov_291.500000 file: escherichia_coli_spades_contigs position: 264 non-reversed
+((2|NODE_42_length_32791_cov_76.492394)|NODE_72_length_7600_cov_78.688403):
+name: 2 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_42_length_32791_cov_76.492394 file: escherichia_coli_spades_contigs position: 7808 non-reversed
+name: NODE_72_length_7600_cov_78.688403 file: escherichia_coli_spades_contigs position: 29 non-reversed
+((336|NODE_170_length_109_cov_65.148148)|NODE_146_length_157_cov_67.519608):
+name: 336 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_170_length_109_cov_65.148148 file: escherichia_coli_spades_contigs position: 31 reversed
+name: NODE_146_length_157_cov_67.519608 file: escherichia_coli_spades_contigs position: 30 non-reversed
+((361|(((NODE_5_length_189593_cov_54.586252|12)|386)|290))|356):
+name: 361 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_5_length_189593_cov_54.586252 file: escherichia_coli_spades_contigs position: 18 non-reversed
+name: 12 file: escherichia_coli_minia_contigs position: 17782 non-reversed
+name: 386 file: escherichia_coli_minia_contigs position: 16727 non-reversed
+name: 290 file: escherichia_coli_minia_contigs position: 17262 non-reversed
+name: 356 file: escherichia_coli_minia_contigs position: 189518 non-reversed
+((39|NODE_175_length_101_cov_151.913043)|NODE_29_length_53646_cov_124.927562):
+name: 39 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_175_length_101_cov_151.913043 file: escherichia_coli_spades_contigs position: 29 reversed
+name: NODE_29_length_53646_cov_124.927562 file: escherichia_coli_spades_contigs position: 182 reversed
+((4|NODE_18_length_82888_cov_122.000652)|(91|NODE_161_length_112_cov_110.508772)):
+name: 4 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_18_length_82888_cov_122.000652 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: 91 file: escherichia_coli_minia_contigs position: 82865 non-reversed
+name: NODE_161_length_112_cov_110.508772 file: escherichia_coli_spades_contigs position: 82939 non-reversed
+((58|(NODE_40_length_35140_cov_63.792447|129))|115):
+name: 58 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_40_length_35140_cov_63.792447 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: 129 file: escherichia_coli_minia_contigs position: 30457 non-reversed
+name: 115 file: escherichia_coli_minia_contigs position: 31027 non-reversed
+((65|NODE_34_length_41991_cov_71.417207)|NODE_169_length_109_cov_125.111111):
+name: 65 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_34_length_41991_cov_71.417207 file: escherichia_coli_spades_contigs position: 5 reversed
+name: NODE_169_length_109_cov_125.111111 file: escherichia_coli_spades_contigs position: 42175 reversed
+((6|NODE_17_length_86407_cov_88.223098)|59):
+name: 6 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_17_length_86407_cov_88.223098 file: escherichia_coli_spades_contigs position: 21 non-reversed
+name: 59 file: escherichia_coli_minia_contigs position: 57881 non-reversed
+((99|NODE_102_length_672_cov_346.426256)|NODE_95_length_1127_cov_416.124067):
+name: 99 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_102_length_672_cov_346.426256 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: NODE_95_length_1127_cov_416.124067 file: escherichia_coli_spades_contigs position: 1498 non-reversed
+((NODE_100_length_718_cov_523.416290|197)|130):
+name: NODE_100_length_718_cov_523.416290 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 197 file: escherichia_coli_minia_contigs position: 376 reversed
+name: 130 file: escherichia_coli_minia_contigs position: 394 non-reversed
+((NODE_108_length_522_cov_267.794433|80)|183):
+name: NODE_108_length_522_cov_267.794433 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 80 file: escherichia_coli_minia_contigs position: 108 non-reversed
+name: 183 file: escherichia_coli_minia_contigs position: 461 non-reversed
+((NODE_131_length_232_cov_80.259887|(302|NODE_147_length_155_cov_234.720000))|227):
+name: NODE_131_length_232_cov_80.259887 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 302 file: escherichia_coli_minia_contigs position: 53 non-reversed
+name: NODE_147_length_155_cov_234.720000 file: escherichia_coli_spades_contigs position: 76 reversed
+name: 227 file: escherichia_coli_minia_contigs position: 214 non-reversed
+((NODE_19_length_82678_cov_116.630030|((26|NODE_15_length_95565_cov_109.637232)|NODE_190_length_72_cov_116.470588))|234):
+name: NODE_19_length_82678_cov_116.630030 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 26 file: escherichia_coli_minia_contigs position: 347 non-reversed
+name: NODE_15_length_95565_cov_109.637232 file: escherichia_coli_spades_contigs position: 83049 reversed
+name: NODE_190_length_72_cov_116.470588 file: escherichia_coli_spades_contigs position: 82904 reversed
+name: 234 file: escherichia_coli_minia_contigs position: 178583 non-reversed
+((NODE_20_length_80584_cov_133.711284|24)|5):
+name: NODE_20_length_80584_cov_133.711284 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 24 file: escherichia_coli_minia_contigs position: 35714 non-reversed
+name: 5 file: escherichia_coli_minia_contigs position: 28992 non-reversed
+((NODE_23_length_66182_cov_126.868163|55)|(136|NODE_69_length_7741_cov_127.334765)):
+name: NODE_23_length_66182_cov_126.868163 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 55 file: escherichia_coli_minia_contigs position: 22 reversed
+name: 136 file: escherichia_coli_minia_contigs position: 11374 non-reversed
+name: NODE_69_length_7741_cov_127.334765 file: escherichia_coli_spades_contigs position: 11403 reversed
+((NODE_25_length_58900_cov_117.274314|67)|68):
+name: NODE_25_length_58900_cov_117.274314 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 67 file: escherichia_coli_minia_contigs position: 94 non-reversed
+name: 68 file: escherichia_coli_minia_contigs position: 58884 non-reversed
+((NODE_28_length_53979_cov_168.009198|31)|248):
+name: NODE_28_length_53979_cov_168.009198 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 31 file: escherichia_coli_minia_contigs position: 43 non-reversed
+name: 248 file: escherichia_coli_minia_contigs position: 53924 non-reversed
+((NODE_3_length_209621_cov_73.856837|346)|19):
+name: NODE_3_length_209621_cov_73.856837 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 346 file: escherichia_coli_minia_contigs position: 32 non-reversed
+name: 19 file: escherichia_coli_minia_contigs position: 222 non-reversed
+((NODE_57_length_17623_cov_105.804872|(310|NODE_189_length_73_cov_91.833333))|(69|NODE_74_length_6044_cov_101.260811)):
+name: NODE_57_length_17623_cov_105.804872 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 310 file: escherichia_coli_minia_contigs position: 17484 non-reversed
+name: NODE_189_length_73_cov_91.833333 file: escherichia_coli_spades_contigs position: 17513 non-reversed
+name: 69 file: escherichia_coli_minia_contigs position: 171 non-reversed
+name: NODE_74_length_6044_cov_101.260811 file: escherichia_coli_spades_contigs position: 198 reversed
+((NODE_63_length_12477_cov_49.964901|171)|381):
+name: NODE_63_length_12477_cov_49.964901 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 171 file: escherichia_coli_minia_contigs position: 446 non-reversed
+name: 381 file: escherichia_coli_minia_contigs position: 12253 non-reversed
+((NODE_65_length_10618_cov_102.127710|52)|318):
+name: NODE_65_length_10618_cov_102.127710 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 52 file: escherichia_coli_minia_contigs position: 151 non-reversed
+name: 318 file: escherichia_coli_minia_contigs position: 10592 non-reversed
+((NODE_92_length_1232_cov_206.799490|103)|90):
+name: NODE_92_length_1232_cov_206.799490 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 103 file: escherichia_coli_minia_contigs position: 555 reversed
+name: 90 file: escherichia_coli_minia_contigs position: 735 non-reversed
+((NODE_97_length_1031_cov_212.187500|358)|240):
+name: NODE_97_length_1031_cov_212.187500 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 358 file: escherichia_coli_minia_contigs position: 0 reversed
+name: 240 file: escherichia_coli_minia_contigs position: 0 non-reversed
+(100|NODE_60_length_14060_cov_54.595573):
+name: 100 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_60_length_14060_cov_54.595573 file: escherichia_coli_spades_contigs position: 29 reversed
+(102|NODE_195_length_64_cov_375.111111):
+name: 102 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_195_length_64_cov_375.111111 file: escherichia_coli_spades_contigs position: 13 non-reversed
+(107|NODE_172_length_106_cov_81.549020):
+name: 107 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_172_length_106_cov_81.549020 file: escherichia_coli_spades_contigs position: 40 reversed
+(110|NODE_88_length_1658_cov_99.839052):
+name: 110 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_88_length_1658_cov_99.839052 file: escherichia_coli_spades_contigs position: 89 non-reversed
+(113|NODE_80_length_3046_cov_82.596122):
+name: 113 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_80_length_3046_cov_82.596122 file: escherichia_coli_spades_contigs position: 2527 reversed
+(11|NODE_52_length_23937_cov_103.848086):
+name: 11 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_52_length_23937_cov_103.848086 file: escherichia_coli_spades_contigs position: 29 reversed
+(121|NODE_90_length_1345_cov_270.378295):
+name: 121 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_90_length_1345_cov_270.378295 file: escherichia_coli_spades_contigs position: 0 non-reversed
+(122|NODE_176_length_101_cov_75.717391):
+name: 122 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_176_length_101_cov_75.717391 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(124|NODE_157_length_127_cov_65.138889):
+name: 124 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_157_length_127_cov_65.138889 file: escherichia_coli_spades_contigs position: 32 reversed
+(127|NODE_43_length_31719_cov_56.698838):
+name: 127 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_43_length_31719_cov_56.698838 file: escherichia_coli_spades_contigs position: 29 reversed
+(128|NODE_143_length_164_cov_130.192661):
+name: 128 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_143_length_164_cov_130.192661 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(134|NODE_188_length_75_cov_85.750000):
+name: 134 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_188_length_75_cov_85.750000 file: escherichia_coli_spades_contigs position: 30 reversed
+(135|NODE_101_length_706_cov_716.780338):
+name: 135 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_101_length_706_cov_716.780338 file: escherichia_coli_spades_contigs position: 0 reversed
+(139|NODE_153_length_144_cov_194.494382):
+name: 139 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_153_length_144_cov_194.494382 file: escherichia_coli_spades_contigs position: 22 reversed
+(140|NODE_49_length_25477_cov_104.244473):
+name: 140 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_49_length_25477_cov_104.244473 file: escherichia_coli_spades_contigs position: 28 non-reversed
+(141|NODE_104_length_593_cov_51.046468):
+name: 141 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_104_length_593_cov_51.046468 file: escherichia_coli_spades_contigs position: 362 reversed
+(144|NODE_70_length_7733_cov_123.901407):
+name: 144 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_70_length_7733_cov_123.901407 file: escherichia_coli_spades_contigs position: 351 non-reversed
+(146|NODE_163_length_111_cov_239.696429):
+name: 146 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_163_length_111_cov_239.696429 file: escherichia_coli_spades_contigs position: 29 reversed
+(152|(NODE_66_length_9818_cov_103.884052|78)):
+name: 152 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_66_length_9818_cov_103.884052 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: 78 file: escherichia_coli_minia_contigs position: 137 non-reversed
+(153|NODE_182_length_86_cov_212.774194):
+name: 153 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_182_length_86_cov_212.774194 file: escherichia_coli_spades_contigs position: 0 reversed
+(154|NODE_162_length_111_cov_240.517857):
+name: 154 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_162_length_111_cov_240.517857 file: escherichia_coli_spades_contigs position: 35 non-reversed
+(158|NODE_145_length_162_cov_63.130841):
+name: 158 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_145_length_162_cov_63.130841 file: escherichia_coli_spades_contigs position: 32 non-reversed
+(159|NODE_199_length_61_cov_357.166667):
+name: 159 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_199_length_61_cov_357.166667 file: escherichia_coli_spades_contigs position: 57 non-reversed
+(15|(((NODE_2_length_268284_cov_63.589612|10)|(20|NODE_10_length_129054_cov_103.984093))|(201|NODE_125_length_240_cov_63.659459))):
+name: 15 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_2_length_268284_cov_63.589612 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: 10 file: escherichia_coli_minia_contigs position: 134785 non-reversed
+name: 20 file: escherichia_coli_minia_contigs position: 133535 non-reversed
+name: NODE_10_length_129054_cov_103.984093 file: escherichia_coli_spades_contigs position: 133564 reversed
+name: 201 file: escherichia_coli_minia_contigs position: 267764 non-reversed
+name: NODE_125_length_240_cov_63.659459 file: escherichia_coli_spades_contigs position: 267793 reversed
+(163|NODE_194_length_65_cov_286.300000):
+name: 163 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_194_length_65_cov_286.300000 file: escherichia_coli_spades_contigs position: 38 reversed
+(168|(((NODE_1_length_356696_cov_55.939558|237)|0)|(NODE_26_length_57320_cov_53.098944|116))):
+name: 168 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_1_length_356696_cov_55.939558 file: escherichia_coli_spades_contigs position: 29 non-reversed
+name: 237 file: escherichia_coli_minia_contigs position: 6330 non-reversed
+name: 0 file: escherichia_coli_minia_contigs position: 21644 non-reversed
+name: NODE_26_length_57320_cov_53.098944 file: escherichia_coli_spades_contigs position: 356766 non-reversed
+name: 116 file: escherichia_coli_minia_contigs position: 386373 non-reversed
+(175|NODE_76_length_4223_cov_106.331094):
+name: 175 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_76_length_4223_cov_106.331094 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(179|NODE_173_length_104_cov_379.448980):
+name: 179 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_173_length_104_cov_379.448980 file: escherichia_coli_spades_contigs position: 0 reversed
+(184|NODE_197_length_63_cov_220.875000):
+name: 184 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_197_length_63_cov_220.875000 file: escherichia_coli_spades_contigs position: 0 reversed
+(186|NODE_209_length_57_cov_293.500000):
+name: 186 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_209_length_57_cov_293.500000 file: escherichia_coli_spades_contigs position: 0 non-reversed
+(188|NODE_82_length_2826_cov_61.477445):
+name: 188 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_82_length_2826_cov_61.477445 file: escherichia_coli_spades_contigs position: 29 reversed
+(189|NODE_89_length_1571_cov_64.698549):
+name: 189 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_89_length_1571_cov_64.698549 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(18|NODE_51_length_24791_cov_58.985082):
+name: 18 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_51_length_24791_cov_58.985082 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(196|NODE_186_length_76_cov_370.095238):
+name: 196 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_186_length_76_cov_370.095238 file: escherichia_coli_spades_contigs position: 11 reversed
+(199|(NODE_56_length_18590_cov_56.037281|117)):
+name: 199 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_56_length_18590_cov_56.037281 file: escherichia_coli_spades_contigs position: 54 non-reversed
+name: 117 file: escherichia_coli_minia_contigs position: 203 non-reversed
+(200|NODE_113_length_383_cov_54.667683):
+name: 200 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_113_length_383_cov_54.667683 file: escherichia_coli_spades_contigs position: 152 non-reversed
+(216|NODE_204_length_60_cov_89.000000):
+name: 216 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_204_length_60_cov_89.000000 file: escherichia_coli_spades_contigs position: 29 reversed
+(21|NODE_30_length_48783_cov_110.663746):
+name: 21 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_30_length_48783_cov_110.663746 file: escherichia_coli_spades_contigs position: 31 reversed
+(221|NODE_200_length_61_cov_251.833333):
+name: 221 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_200_length_61_cov_251.833333 file: escherichia_coli_spades_contigs position: 29 reversed
+(226|NODE_174_length_102_cov_315.234043):
+name: 226 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_174_length_102_cov_315.234043 file: escherichia_coli_spades_contigs position: 38 non-reversed
+(22|NODE_41_length_33098_cov_57.067579):
+name: 22 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_41_length_33098_cov_57.067579 file: escherichia_coli_spades_contigs position: 29 reversed
+(235|NODE_122_length_245_cov_88.347368):
+name: 235 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_122_length_245_cov_88.347368 file: escherichia_coli_spades_contigs position: 157 non-reversed
+(238|NODE_96_length_1095_cov_286.404808):
+name: 238 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_96_length_1095_cov_286.404808 file: escherichia_coli_spades_contigs position: 2 reversed
+(245|NODE_126_length_237_cov_61.010989):
+name: 245 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_126_length_237_cov_61.010989 file: escherichia_coli_spades_contigs position: 30 reversed
+(246|NODE_181_length_87_cov_379.406250):
+name: 246 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_181_length_87_cov_379.406250 file: escherichia_coli_spades_contigs position: 0 non-reversed
+(247|NODE_187_length_75_cov_97.100000):
+name: 247 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_187_length_75_cov_97.100000 file: escherichia_coli_spades_contigs position: 29 reversed
+(251|NODE_123_length_245_cov_51.615789):
+name: 251 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_123_length_245_cov_51.615789 file: escherichia_coli_spades_contigs position: 29 reversed
+(263|NODE_151_length_149_cov_82.457447):
+name: 263 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_151_length_149_cov_82.457447 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(265|NODE_135_length_193_cov_252.818841):
+name: 265 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_135_length_193_cov_252.818841 file: escherichia_coli_spades_contigs position: 29 reversed
+(268|NODE_142_length_166_cov_137.972973):
+name: 268 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_142_length_166_cov_137.972973 file: escherichia_coli_spades_contigs position: 29 reversed
+(269|NODE_166_length_111_cov_73.017857):
+name: 269 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_166_length_111_cov_73.017857 file: escherichia_coli_spades_contigs position: 79 reversed
+(273|NODE_115_length_345_cov_113.644828):
+name: 273 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_115_length_345_cov_113.644828 file: escherichia_coli_spades_contigs position: 0 reversed
+(279|NODE_77_length_4122_cov_97.041800):
+name: 279 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_77_length_4122_cov_97.041800 file: escherichia_coli_spades_contigs position: 30 reversed
+(27|NODE_109_length_434_cov_925.928760):
+name: 27 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_109_length_434_cov_925.928760 file: escherichia_coli_spades_contigs position: 131 reversed
+(288|NODE_121_length_253_cov_77.505051):
+name: 288 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_121_length_253_cov_77.505051 file: escherichia_coli_spades_contigs position: 68 non-reversed
+(289|NODE_87_length_1693_cov_65.252137):
+name: 289 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_87_length_1693_cov_65.252137 file: escherichia_coli_spades_contigs position: 29 reversed
+(28|NODE_12_length_112343_cov_124.472891):
+name: 28 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_12_length_112343_cov_124.472891 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(293|NODE_168_length_110_cov_93.309091):
+name: 293 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_168_length_110_cov_93.309091 file: escherichia_coli_spades_contigs position: 29 reversed
+(295|NODE_177_length_98_cov_165.372093):
+name: 295 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_177_length_98_cov_165.372093 file: escherichia_coli_spades_contigs position: 29 reversed
+(296|NODE_212_length_57_cov_89.000000):
+name: 296 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_212_length_57_cov_89.000000 file: escherichia_coli_spades_contigs position: 104 non-reversed
+(297|NODE_155_length_137_cov_59.743902):
+name: 297 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_155_length_137_cov_59.743902 file: escherichia_coli_spades_contigs position: 29 reversed
+(29|NODE_16_length_95457_cov_52.773422):
+name: 29 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_16_length_95457_cov_52.773422 file: escherichia_coli_spades_contigs position: 29 reversed
+(300|NODE_79_length_3173_cov_101.916292):
+name: 300 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_79_length_3173_cov_101.916292 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(307|NODE_201_length_61_cov_247.666667):
+name: 307 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_201_length_61_cov_247.666667 file: escherichia_coli_spades_contigs position: 29 reversed
+(30|NODE_208_length_57_cov_308.000000):
+name: 30 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_208_length_57_cov_308.000000 file: escherichia_coli_spades_contigs position: 29820 reversed
+(319|NODE_93_length_1163_cov_60.259928):
+name: 319 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_93_length_1163_cov_60.259928 file: escherichia_coli_spades_contigs position: 29 reversed
+(32|NODE_84_length_2303_cov_103.597865):
+name: 32 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_84_length_2303_cov_103.597865 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(33|NODE_21_length_78605_cov_84.406073):
+name: 33 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_21_length_78605_cov_84.406073 file: escherichia_coli_spades_contigs position: 29 reversed
+(353|NODE_136_length_188_cov_50.902256):
+name: 353 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_136_length_188_cov_50.902256 file: escherichia_coli_spades_contigs position: 29 reversed
+(35|NODE_14_length_105630_cov_123.479489):
+name: 35 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_14_length_105630_cov_123.479489 file: escherichia_coli_spades_contigs position: 29 reversed
+(360|NODE_171_length_107_cov_116.961538):
+name: 360 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_171_length_107_cov_116.961538 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(369|NODE_158_length_122_cov_108.671642):
+name: 369 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_158_length_122_cov_108.671642 file: escherichia_coli_spades_contigs position: 1 reversed
+(36|NODE_44_length_31582_cov_63.768104):
+name: 36 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_44_length_31582_cov_63.768104 file: escherichia_coli_spades_contigs position: 29 reversed
+(370|NODE_179_length_96_cov_66.609756):
+name: 370 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_179_length_96_cov_66.609756 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(376|NODE_141_length_167_cov_77.973214):
+name: 376 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_141_length_167_cov_77.973214 file: escherichia_coli_spades_contigs position: 36 reversed
+(389|NODE_160_length_122_cov_63.895522):
+name: 389 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_160_length_122_cov_63.895522 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(38|NODE_61_length_13080_cov_158.327831):
+name: 38 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_61_length_13080_cov_158.327831 file: escherichia_coli_spades_contigs position: 27 non-reversed
+(394|NODE_165_length_111_cov_107.946429):
+name: 394 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_165_length_111_cov_107.946429 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(3|NODE_37_length_40867_cov_95.490125):
+name: 3 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_37_length_40867_cov_95.490125 file: escherichia_coli_spades_contigs position: 29 reversed
+(400|NODE_127_length_235_cov_300.977778):
+name: 400 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_127_length_235_cov_300.977778 file: escherichia_coli_spades_contigs position: 235 reversed
+(40|NODE_22_length_67330_cov_67.312850):
+name: 40 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_22_length_67330_cov_67.312850 file: escherichia_coli_spades_contigs position: 29 reversed
+(411|NODE_130_length_232_cov_151.169492):
+name: 411 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_130_length_232_cov_151.169492 file: escherichia_coli_spades_contigs position: 29 reversed
+(412|NODE_156_length_135_cov_229.075000):
+name: 412 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_156_length_135_cov_229.075000 file: escherichia_coli_spades_contigs position: 79 non-reversed
+(418|NODE_128_length_235_cov_76.394444):
+name: 418 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_128_length_235_cov_76.394444 file: escherichia_coli_spades_contigs position: 84 reversed
+(42|NODE_215_length_56_cov_62.000000):
+name: 42 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_215_length_56_cov_62.000000 file: escherichia_coli_spades_contigs position: 21564 non-reversed
+(43|NODE_38_length_40160_cov_96.754794):
+name: 43 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_38_length_40160_cov_96.754794 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(46|NODE_36_length_41032_cov_162.921932):
+name: 46 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_36_length_41032_cov_162.921932 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(47|NODE_54_length_22952_cov_153.932175):
+name: 47 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_54_length_22952_cov_153.932175 file: escherichia_coli_spades_contigs position: 29 reversed
+(49|NODE_62_length_12751_cov_108.985507):
+name: 49 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_62_length_12751_cov_108.985507 file: escherichia_coli_spades_contigs position: 117 non-reversed
+(51|NODE_9_length_132872_cov_96.812223):
+name: 51 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_9_length_132872_cov_96.812223 file: escherichia_coli_spades_contigs position: 24 reversed
+(53|NODE_47_length_29518_cov_128.702814):
+name: 53 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_47_length_29518_cov_128.702814 file: escherichia_coli_spades_contigs position: 66 non-reversed
+(54|NODE_27_length_54860_cov_114.126850):
+name: 54 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_27_length_54860_cov_114.126850 file: escherichia_coli_spades_contigs position: 29 reversed
+(56|NODE_35_length_41279_cov_104.780177):
+name: 56 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_35_length_41279_cov_104.780177 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(57|(NODE_45_length_31255_cov_105.641346|13)):
+name: 57 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_45_length_31255_cov_105.641346 file: escherichia_coli_spades_contigs position: 27 non-reversed
+name: 13 file: escherichia_coli_minia_contigs position: 89 reversed
+(60|NODE_24_length_60768_cov_56.097739):
+name: 60 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_24_length_60768_cov_56.097739 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(70|NODE_73_length_6660_cov_95.968660):
+name: 70 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_73_length_6660_cov_95.968660 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(71|NODE_39_length_35183_cov_146.470195):
+name: 71 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_39_length_35183_cov_146.470195 file: escherichia_coli_spades_contigs position: 29 reversed
+(72|(NODE_48_length_26754_cov_91.151729|48)):
+name: 72 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_48_length_26754_cov_91.151729 file: escherichia_coli_spades_contigs position: 189 non-reversed
+name: 48 file: escherichia_coli_minia_contigs position: 642 non-reversed
+(73|NODE_32_length_43809_cov_60.825776):
+name: 73 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_32_length_43809_cov_60.825776 file: escherichia_coli_spades_contigs position: 28 non-reversed
+(75|NODE_68_length_9225_cov_103.797928):
+name: 75 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_68_length_9225_cov_103.797928 file: escherichia_coli_spades_contigs position: 29 non-reversed
+(76|NODE_114_length_376_cov_123.028037):
+name: 76 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_114_length_376_cov_123.028037 file: escherichia_coli_spades_contigs position: 30 non-reversed
+(79|((NODE_8_length_133189_cov_113.467814|14)|(77|NODE_53_length_23382_cov_105.854246))):
+name: 79 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_8_length_133189_cov_113.467814 file: escherichia_coli_spades_contigs position: 24 reversed
+name: 14 file: escherichia_coli_minia_contigs position: 58870 non-reversed
+name: 77 file: escherichia_coli_minia_contigs position: 81350 reversed
+name: NODE_53_length_23382_cov_105.854246 file: escherichia_coli_spades_contigs position: 81379 non-reversed
+(81|NODE_86_length_1702_cov_723.763206):
+name: 81 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_86_length_1702_cov_723.763206 file: escherichia_coli_spades_contigs position: 0 non-reversed
+(82|NODE_81_length_2936_cov_730.330788):
+name: 82 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_81_length_2936_cov_730.330788 file: escherichia_coli_spades_contigs position: 0 reversed
+(83|NODE_105_length_579_cov_958.730916):
+name: 83 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_105_length_579_cov_958.730916 file: escherichia_coli_spades_contigs position: 29 reversed
+(86|NODE_138_length_177_cov_174.680328):
+name: 86 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_138_length_177_cov_174.680328 file: escherichia_coli_spades_contigs position: 145 reversed
+(87|NODE_184_length_79_cov_416.458333):
+name: 87 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_184_length_79_cov_416.458333 file: escherichia_coli_spades_contigs position: 0 non-reversed
+(89|NODE_129_length_232_cov_199.073446):
+name: 89 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_129_length_232_cov_199.073446 file: escherichia_coli_spades_contigs position: 29 reversed
+(8|NODE_31_length_46203_cov_100.394730):
+name: 8 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_31_length_46203_cov_100.394730 file: escherichia_coli_spades_contigs position: 29 reversed
+(93|NODE_55_length_19213_cov_57.472179):
+name: 93 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_55_length_19213_cov_57.472179 file: escherichia_coli_spades_contigs position: 45 non-reversed
+(98|NODE_91_length_1255_cov_442.926667):
+name: 98 file: escherichia_coli_minia_contigs position: 0 non-reversed
+name: NODE_91_length_1255_cov_442.926667 file: escherichia_coli_spades_contigs position: 0 non-reversed
+(NODE_106_length_531_cov_134.936975|362):
+name: NODE_106_length_531_cov_134.936975 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 362 file: escherichia_coli_minia_contigs position: 160 non-reversed
+(NODE_107_length_528_cov_14.460888|359):
+name: NODE_107_length_528_cov_14.460888 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 359 file: escherichia_coli_minia_contigs position: 56 non-reversed
+(NODE_110_length_428_cov_384.501340|304):
+name: NODE_110_length_428_cov_384.501340 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 304 file: escherichia_coli_minia_contigs position: 218 non-reversed
+(NODE_111_length_413_cov_450.262570|177):
+name: NODE_111_length_413_cov_450.262570 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 177 file: escherichia_coli_minia_contigs position: 0 non-reversed
+(NODE_112_length_388_cov_147.519520|276):
+name: NODE_112_length_388_cov_147.519520 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 276 file: escherichia_coli_minia_contigs position: 0 non-reversed
+(NODE_120_length_266_cov_68.417062|155):
+name: NODE_120_length_266_cov_68.417062 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 155 file: escherichia_coli_minia_contigs position: 139 non-reversed
+(NODE_124_length_240_cov_234.324324|378):
+name: NODE_124_length_240_cov_234.324324 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 378 file: escherichia_coli_minia_contigs position: 4 non-reversed
+(NODE_132_length_223_cov_316.785714|270):
+name: NODE_132_length_223_cov_316.785714 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 270 file: escherichia_coli_minia_contigs position: 70 non-reversed
+(NODE_133_length_213_cov_372.886076|123):
+name: NODE_133_length_213_cov_372.886076 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 123 file: escherichia_coli_minia_contigs position: 29 non-reversed
+(NODE_144_length_162_cov_92.093458|85):
+name: NODE_144_length_162_cov_92.093458 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 85 file: escherichia_coli_minia_contigs position: 102 non-reversed
+(NODE_154_length_144_cov_124.044944|321):
+name: NODE_154_length_144_cov_124.044944 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 321 file: escherichia_coli_minia_contigs position: 4 non-reversed
+(NODE_191_length_69_cov_103.928571|375):
+name: NODE_191_length_69_cov_103.928571 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 375 file: escherichia_coli_minia_contigs position: 14 non-reversed
+(NODE_192_length_68_cov_307.461538|101):
+name: NODE_192_length_68_cov_307.461538 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 101 file: escherichia_coli_minia_contigs position: 7 non-reversed
+(NODE_193_length_66_cov_65.363636|149):
+name: NODE_193_length_66_cov_65.363636 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 149 file: escherichia_coli_minia_contigs position: 4 non-reversed
+(NODE_59_length_14459_cov_68.939947|74):
+name: NODE_59_length_14459_cov_68.939947 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 74 file: escherichia_coli_minia_contigs position: 34 non-reversed
+(NODE_71_length_7706_cov_106.213044|119):
+name: NODE_71_length_7706_cov_106.213044 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 119 file: escherichia_coli_minia_contigs position: 17 non-reversed
+(NODE_75_length_4628_cov_98.025366|180):
+name: NODE_75_length_4628_cov_98.025366 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 180 file: escherichia_coli_minia_contigs position: 2014 non-reversed
+(NODE_78_length_3762_cov_157.839223|84):
+name: NODE_78_length_3762_cov_157.839223 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 84 file: escherichia_coli_minia_contigs position: 3707 non-reversed
+(NODE_83_length_2528_cov_81.906591|148):
+name: NODE_83_length_2528_cov_81.906591 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 148 file: escherichia_coli_minia_contigs position: 2472 non-reversed
+(NODE_85_length_2049_cov_119.160983|94):
+name: NODE_85_length_2049_cov_119.160983 file: escherichia_coli_spades_contigs position: 0 reversed
+name: 94 file: escherichia_coli_minia_contigs position: 390 non-reversed
+(NODE_99_length_991_cov_162.830128|195):
+name: NODE_99_length_991_cov_162.830128 file: escherichia_coli_spades_contigs position: 0 non-reversed
+name: 195 file: escherichia_coli_minia_contigs position: 0 non-reversed

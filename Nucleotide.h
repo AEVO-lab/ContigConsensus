@@ -126,6 +126,8 @@ public:
     if(!bA && !bT && !bC && bG)
       return 'G';
 
+    return 'N';
+
     if(bA && !bT && !bC && bG)
       return 'R';
 

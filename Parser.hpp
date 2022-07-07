@@ -1,5 +1,6 @@
 #pragma once
 
+#include <algorithm>
 #include <cstdlib>
 #include <cstring>
 #include <dirent.h>
@@ -25,8 +26,10 @@
 using namespace std;
 
 
-void parseFastaFile(const char* fileName, unsigned set_id, AssemblySet &assembly_sets)
+void parseFastaFile(const char* fileName, unsigned set_id, AssemblySet &assembly_sets, unsigned long &contig_id_count,map<string,Contig*> &m_contig)
 {
+  size_t max_size=0;
+  string max_name;
   ifstream file(fileName);
   if(!file)
     {
@@ -35,7 +38,6 @@ void parseFastaFile(const char* fileName, unsigned set_id, AssemblySet &assembly
     }
   
   auto &v = assembly_sets[set_id];
-
   file.get(); // do not read the first '>'
   while(!file.eof())
     {
@@ -56,8 +58,15 @@ void parseFastaFile(const char* fileName, unsigned set_id, AssemblySet &assembly
 	seq.push_back(c);
 			
       } while (c!='>' && c != EOF);
+      if(seq.size()>max_size){
+	max_size=seq.size();
+	max_name=name;
+      }
+
       if(seq.size()>0)
-	v.emplace(make_unique<Contig>(set_id,move(name),move(seq)));
+	m_contig[name]=v.emplace(make_unique<Contig>(set_id,contig_id_count++,move(name),move(seq))).first->get();
+
+
 		
     }
 
@@ -65,11 +74,15 @@ void parseFastaFile(const char* fileName, unsigned set_id, AssemblySet &assembly
   for(const auto &cont : v)
     cout << *cont.get() << "\n";
 #endif
+  cout << fileName << ": " << max_name << endl;
+  cout << "size: " << max_size << endl;
+  
 
 }
 
 
-void parseMatches(const char * fileName, AssemblySet & assembly_sets, MatchMatrix & matches, unsigned id_set1, unsigned id_set2)
+void parseMatches(const char * fileName, AssemblySet & assembly_sets, MatchMatrix & matches,
+		  unsigned id_set1, unsigned id_set2,float percentage,map<string,Contig*> &m_contig)
 {
   ifstream file(fileName);
   if(!file) {
@@ -93,62 +106,77 @@ void parseMatches(const char * fileName, AssemblySet & assembly_sets, MatchMatri
     file >> endT;
     file >> lengthT;
 
-    auto a = assembly_sets[id_set1].find(nameS);
-    if(a==assembly_sets[id_set1].end()){
-      a = assembly_sets[id_set2].find(nameS);
-      if(a==assembly_sets[id_set2].end()){
-	cout << "error " << nameS << " doesn't exist in "<< id_set1 << endl;
-	for(auto &p : assembly_sets[id_set1]){
-	  cout << p->getName() << endl;
-	  exit(EXIT_FAILURE);
-	}
-	
-	exit(EXIT_FAILURE);
-      }
-    }
-    Contig *s = a->get();
-    
-    a = assembly_sets[id_set2].find(nameT);
-    if(a==assembly_sets[id_set2].end()){
-      a = assembly_sets[id_set1].find(nameT);
-      if(a==assembly_sets[id_set1].end()){
-	cout << "error " << nameT << " doesn't exist" << endl;
-	exit(EXIT_FAILURE);
-      }
-    }
-    Contig *t = a->get();
 
+    auto tmp = m_contig.find(nameS);
+    if(tmp==m_contig.end()){
+      	cout << "error " << nameS << " doesn't exist in "<< id_set1 << endl;
+	exit(EXIT_FAILURE);
+    }
+    Contig *s = tmp->second;
+    assert(s->get_set_id()==id_set1 || s->get_set_id()==id_set2);
+
+    tmp = m_contig.find(nameT);
+    if(tmp==m_contig.end()){
+      	cout << "error " << nameT << " doesn't exist in "<< id_set2 << endl;
+	exit(EXIT_FAILURE);
+    }
+    Contig *t = tmp->second;
+    assert(t->get_set_id()==id_set2 || t->get_set_id()==id_set1);
+    // TODO use pair<string,unsigned> for the map key
 
     while(startS != 1 && startS != lengthS && startT !=1 && startT !=lengthT){
       startS = startS<endS ? startS-1 : startS+1;
-      startT = startT<endT ? startT-1 : startT+1;
-      if(s->getNuc(startS-1)==t->getNuc(startT-1))
+      startT = startT<endT ? startT-1 : startT+1;      
+      if(s->getNuc(startS-1).is_equal(t->getNuc(startT-1),startT>endT))
 	score++;
     }
     while(endS != 1 && endS != lengthS && endT !=1 && endT !=lengthT){
       endS = startS<endS ? endS+1 : endS-1;
       endT = startT<endT ? endT+1 : endT-1;
-      if(s->getNuc(endS-1)==t->getNuc(endT-1))
+      if(s->getNuc(endS-1).is_equal(t->getNuc(endT-1),startT>endT))
 	score++;
     }
 
     unsigned lengthS = startS<endS ? endS-startS : startS-endS;
     unsigned lengthT = startT<endT ? endT-startT : startT-endT;
     assert(lengthS==lengthT);
-    
-    if(s->get_set_id()<t->get_set_id())
-      v.emplace_back(s,t,startS-1,endS-1,startT-1,endT-1,score);
-    else
-      v.emplace_back(t,s,startT-1,endT-1,startS-1,endS-1,score);
+  
+    if((float)score*100.0/(lengthS+1)>=percentage){
+      if(s->get_set_id()<t->get_set_id())
+	v.emplace_back(s,t,startS-1,endS-1,startT-1,endT-1,score);
+      else
+	v.emplace_back(t,s,startT-1,endT-1,startS-1,endS-1,score);
+
+      //v.back().display_alignment();
+
+      //  if(t->getName()=="NODE_31159_length_688_cov_50.574127" && s->getName()=="333"){
+      // 	v.back().display_alignment();
+      // 	exit(EXIT_SUCCESS);
+      //  }
+      // if(t->getName()=="NODE_31159_length_688_cov_50.574127" && s->getName()=="384"){
+      // 	v.back().display_alignment();
+
+      // }
+
+    }
+    //if(it==15) exit(EXIT_SUCCESS);
+    // if(lengthS <=40){
+    //   std::cout << lengthS << endl;
+    //   Match & m = v.back();
+    //   m.display_contig_names();
+    //   m.display_alignment();
+    //   exit(EXIT_SUCCESS);
+    // }
+
     
     
   }
-
+  //  std::cout << v.size() << "/" << it << std::endl;
 }
 
 
-
-void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,bool only_read_names)
+void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,
+			 bool only_read_names, unsigned long& contig_id_count, map<string,Contig*> &m_contig)
 {
   unsigned id=0;
   DIR* dir;
@@ -164,7 +192,7 @@ void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
       continue;
 		
     string f_name = ent->d_name;
-    if(f_name.substr(f_name.find_last_of(".")) != ".fasta")
+    if(f_name.find_last_of(".")!= string::npos && f_name.substr(f_name.find_last_of(".")) != ".fasta")
       continue;
 		
     cout << "Read fasta file: " << f_name <<"\n";
@@ -172,13 +200,14 @@ void treatFastaDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
     file.append("/");
     file.append(ent->d_name);
     ids[f_name.substr(0,f_name.find_last_of("."))]=id;
-    if(!only_read_names) parseFastaFile(file.c_str(), id, assembly_sets);
+    if(!only_read_names) parseFastaFile(file.c_str(), id, assembly_sets, contig_id_count,m_contig);
     id++;
   }
 }
 
 
-void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,MatchMatrix &matches, bool display=true)
+void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<string,unsigned> &ids,
+			 MatchMatrix &matches, float percentage,map<string,Contig*>& m_contig, bool display=true)
 {
   DIR* dir;
   struct dirent *ent;
@@ -187,11 +216,10 @@ void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
     cout << "Error: could not open directory " << dirName << "\n";
     exit(EXIT_FAILURE);
   }
-
   while((ent=readdir(dir))!=NULL){
     if(ent->d_type!=DT_REG)
       continue;
-		
+    
     string f_name = ent->d_name;
     if(f_name.substr(f_name.find_last_of(".")) != ".txt")
       continue;
@@ -219,9 +247,10 @@ void treatMatchDirectory(const char *dirName, AssemblySet &assembly_sets, map<st
 
     cout << "Read match file: " << f_name <<"\n";
     if(id1->second<id2->second)
-      parseMatches(file.c_str(), assembly_sets, matches,id1->second,id2->second);
-    else parseMatches(file.c_str(), assembly_sets, matches,id2->second,id1->second);
+      parseMatches(file.c_str(), assembly_sets, matches,id1->second,id2->second,percentage,m_contig);
+    else parseMatches(file.c_str(), assembly_sets, matches,id2->second,id1->second,percentage,m_contig);
   }
+  
 }
 
 void createMatchDirectory(const char *m_dirName,const char *f_dirName,map<string,unsigned> &ids){
@@ -234,7 +263,7 @@ void createMatchDirectory(const char *m_dirName,const char *f_dirName,map<string
   cout << "Generating match files" << endl;
   for(auto it_a=ids.begin();it_a!=ids.end();++it_a){
     for(auto it_b=next(it_a);it_b!=ids.end();++it_b){
-      string cmd_blast="blastn -task megablast -query ";
+      string cmd_blast="blastn -task megablast -query "; //-strand plus
       cmd_blast.append(f_dirName);
       cmd_blast.append("/");
       cmd_blast.append(it_a->first);
@@ -274,18 +303,43 @@ void output(const char * fileName, vector<const Match*>& matches)
   }
 }
 
-void output_contig(const char* fileName, AssemblySet & assembly_sets)
+void output_contig(const char* fileName, AssemblySet & assembly_sets,bool random_when_tie)
 {
+  unsigned max_size=0;
+  string max_name;
+
+  unsigned id=1;
+  
   auto & contigs = assembly_sets.begin()->second;
+
+  vector<Contig*> v_contigs;
+  for(auto &c : contigs)
+    v_contigs.push_back(c.get());
+
+  sort(v_contigs.begin(),v_contigs.end(),[](Contig *c1,Contig *c2){return c1->size()<c2->size();});
+
+
+
   ofstream file(fileName);
   if(!file) {
     cout << "Error: could not open " << fileName << endl;
     exit(EXIT_FAILURE);
   }
+  // write_contig(file, *v_contigs.back(), 1, !random_when_tie);
+  // return;
+  
   cout << "Writing fasta result in " << fileName << endl;
-  for(auto &c : contigs){
-    file << *c;
+  for(auto &c : v_contigs){
+    if(c->size()>max_size){
+      max_size=c->size();
+      max_name=c->getName();
+    }
+    if(c->getName().find("k119_79")!=string::npos) cout << "size k119: " << c->size() <<endl;
+    //file << *c;
+    write_contig(file, *c, id, !random_when_tie);
+    id++;
   }
+  cout << max_size << ": " << endl; //<< max_name << endl;
 }
 
 void output_contig_ordering(const char * fileName, AssemblySet & assembly_sets, map<string,unsigned> &ids)

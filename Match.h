@@ -77,7 +77,7 @@ struct Match
       // cout << "head_c1:" << head_c1 << ":"<< (char)c1->getNuc(head_c1)
       // 	   << " head_c2:" << head_c2 << ":"<< (char)c2->getNuc(head_c2)<< endl;
 
-      score+=c1->getNuc(head_c1)==c2->getNuc(head_c2);
+      score+=c1->getNuc(head_c1).is_equal(c2->getNuc(head_c2),is_c1_reversed!=is_c2_reversed);
       head_c1 = is_c1_reversed ? head_c1+1 : head_c1-1;
       head_c2 = is_c2_reversed ? head_c2+1 : head_c2-1;
     }
@@ -111,7 +111,7 @@ struct Match
     return contigs[t].contig;
   }
 
-  // TODO vérifier que c'est bien le bon match ?
+  //  TODO vérifier que c'est bien le bon match ?
   Contig * contig(const Contig * c) const
   {
     return c==contigs[0].contig ? contigs[1].contig : contigs[0].contig;
@@ -163,7 +163,7 @@ struct Match
   {
     if(this->contig((unsigned)0)==m->contig((unsigned)0) && this->contig(1)==m->contig(1))
       return true;
-    
+
     for(size_t i =0; i <=1; i++){
       if (this->contig(i) == m->contig(i) &&
 	  ( this->is_reverse(i)!= m->is_reverse(i) ||
@@ -215,6 +215,69 @@ struct Match
 	 << "(" << contigs[1].start <<"," << contigs[1].end<< ", s:"<< contigs[0].start <<")"
 	 << "-> " << score
 	 << endl;
+  }
+
+  void display_alignment() const
+  {
+
+    cout << contigs[0].contig->getName() <<"(" << contigs[0].contig->size() << ")"
+	 << " vs " << contigs[1].contig->getName() <<"(" << contigs[1].contig->size() << ")" << endl;
+    unsigned it1_a=start((unsigned)0),it1_b=start((unsigned)0),it1_c=start((unsigned)0) ;
+    unsigned it2_a=start(1),it2_b=start(1),it2_c=start(1);
+    unsigned count=0;
+    bool cont_a=true, cont_b=true;
+
+    while(cont_a){
+      cont_a=false;
+      cout << it1_a << "|" << it2_a << "    " << endl;
+      
+      cont_b=true;
+      count=0;
+      while (cont_b) {
+	count++;
+	if(count==80){
+	  cont_a=true;
+	  cont_b=false;
+	}
+	cout << contigs[0].contig->getNuc(it1_a,is_reverse((unsigned)0));
+	if(it1_a==end((unsigned)0))
+	  cont_b=false;
+	it1_a = is_reverse((unsigned)0) ? it1_a-1 : it1_a+1;
+      }
+      std::cout << std::endl;
+
+
+      cont_b=true;
+      count=0;
+
+
+      while (cont_b) {
+	count++;
+	if(contigs[0].contig->getNuc(it1_b,is_reverse((unsigned)0))==contigs[1].contig->getNuc(it2_b,is_reverse(1)))
+	  cout << "|";
+	else cout << " ";
+	if(it1_b==end((unsigned)0)||count==80)
+	  cont_b=false;
+	it1_b = is_reverse((unsigned)0) ? it1_b-1 : it1_b+1;
+	it2_b = is_reverse(1) ? it2_b-1 : it2_b+1;
+      }
+      std::cout << std::endl;
+    
+      cont_b=true;
+      count=0;
+      while (cont_b) {
+	count++;
+	cout << contigs[1].contig->getNuc(it2_a,is_reverse(1));
+	if(it2_a==end(1)||count==80)
+	  cont_b=false;
+	it2_a = is_reverse(1) ? it2_a-1 : it2_a+1;
+      }
+      std::cout << std::endl;
+      std::cout << std::endl;
+    
+
+      
+    }
   }
 
 };

@@ -10,10 +10,17 @@ using namespace std;
 
 class Nuc //: //public array<unsigned char,4>
 {
-  unsigned char A : 2;
-  unsigned char T : 2;
-  unsigned char C : 2;
-  unsigned char G : 2;
+  unsigned char A : 4;
+  unsigned char T : 4;
+  unsigned char C : 4;
+  unsigned char G : 4;
+
+  // // absorb
+  // unsigned char a : 4;
+  // unsigned char t : 4;
+  // unsigned char c : 4;
+  // unsigned char g : 4;
+
   friend Nuc operator+(const Nuc&, const Nuc &);
     
   Nuc() : A(0), T(0), C(0), G(0) {}
@@ -169,6 +176,16 @@ public:
     G = G + n.G >3 ? 3 : G +n.G;	
   }
 
+  //  void absorb(const Nuc&n)
+  // {
+  //   a = a + n.A >3 ? 3 : a +n.A;
+  //   t = t + n.T >3 ? 3 : t +n.T;
+  //   c = c + n.C >3 ? 3 : c +n.C;
+  //   g = g + n.G >3 ? 3 : g +n.G;	
+  // }
+
+  
+
   char disp2(unsigned c) const
   {
     switch (c) {
@@ -208,7 +225,7 @@ public:
     if(!bA && !bT && !bC && bG)
       return 'G';
 
-    return 'N';
+    //return 'N';
 
     if(bA && !bT && !bC && bG)
       return 'R';

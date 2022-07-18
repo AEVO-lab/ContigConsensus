@@ -142,6 +142,12 @@ struct Match
     return length(t) == (contigs[t].contig->size());
   }
 
+  bool is_full()  const
+  {
+    return is_full(0) || is_full(1);
+  }
+
+
   size_t projected_start(unsigned t) const
   {
     // TODO is that just min(start,end)?
@@ -161,6 +167,8 @@ struct Match
 
   bool intersect(const Match * m) const
   {
+    // if(contig((unsigned)0)->get_set_id()!=m->contig((unsigned)0)->get_set_id() &&
+    //    contig((unsigned)0)->get_set_id()!=m->contig((unsigned)0)->get_set_id())
     if(this->contig((unsigned)0)==m->contig((unsigned)0) && this->contig(1)==m->contig(1))
       return true;
 
@@ -279,9 +287,22 @@ struct Match
       
     }
   }
-
 };
-typedef map<unsigned, map<unsigned,tuple<vector<Match>,unsigned,vector<const Match*>>>> MatchMatrix;
+typedef map<
+    unsigned,
+    map<unsigned, tuple<vector<Match>, unsigned, vector<const Match *>>>>
+    MatchMatrix;
+
+bool operator<(const unique_ptr<Match> &m1, const unique_ptr<Match> &m2)
+{
+  if(m1->score==m2->score){
+    if(m1->contig((unsigned)0)->get_contig_id()==m2->contig((unsigned)0)->get_contig_id()){
+      return m1->contig(1)->get_contig_id()<m2->contig(1)->get_contig_id();
+    }
+    else return m1->contig((unsigned)0)->get_contig_id()<m2->contig((unsigned)0)->get_contig_id();
+  }
+  return m1->score>m2->score;
+}
 
 
 // ostream &operator<<(ostream& os, const Match& m)

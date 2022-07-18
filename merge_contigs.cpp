@@ -1,4 +1,5 @@
 #include <cassert>
+#include <cstddef>
 #include <iostream>
 #include <memory>
 #include <stdexcept>
@@ -8,12 +9,7 @@
 #include <unistd.h>
 #include <utility>
 
-#include "Contig.h"
-#include "Hungarian_algo.hpp"
-#include "Match.h"
-#include "Parser.hpp"
-#include "MatchesPerContig.hpp"
-#include "Nucleotide.h"
+#include "approximation.cpp"
 
 #define ABSORBED 0
 
@@ -21,31 +17,49 @@ using namespace std;
 
 struct Data
 {
+  set<unique_ptr<Match>,less<>> all_matches;
+  set<unique_ptr<Contig>,less<>> contigs;
+  
   AssemblySet assembly_sets;
   MatchMatrix matches;
   map<string,unsigned> ids;
   float percentage;
   unsigned long contig_id_count;
 
-  Data(float percentage) : percentage(percentage), contig_id_count(1) {} 
+  Data(float percentage=100.0) : percentage(percentage), contig_id_count(1) {} 
 };   
 
-unsigned greedy_fill(vector<const Match*>& selected_matches, vector<Match>& all_matches){
 
-  unsigned added_score=0;
-  sort(all_matches.begin(),all_matches.end(),[](const Match &m1, const Match& m2){
-    return m1.score>m2.score;
-   });
+void update_match(Data &data, Match &m, pair<size_t,bool> shift, Contig * old_contig, Contig * new_contig, vector<unique_ptr<Match>> &insert)
+{
+  size_t shift_c1=0, shift_c2=0;
+  bool is_c1_reversed=false, is_c2_reversed=false;
+  
+  Contig * c1 = m.contig((unsigned)0);
+  unsigned long id_c1 = c1->get_contig_id();
 
-  for(Match & m : all_matches){
-    if (!m.intersect(selected_matches)) {
-      selected_matches.push_back(&m);
-      added_score += m.score;
-    }
+  Contig * c2 = m.contig(1);
+  unsigned long id_c2=c2->get_contig_id();
+
+  if(c1==old_contig){
+    c1=new_contig;
+    is_c1_reversed=shift.second;
+    shift_c1=shift.first;
+  } else {
+    c2 = new_contig;
+    is_c2_reversed=shift.second;
+    shift_c2=shift.first;
   }
-  return added_score;
-}
+  
+  unsigned start_c1= is_c1_reversed ? shift_c1 + m.relative_start((unsigned)0) : shift_c1 + m.start((unsigned)0);
+  unsigned start_c2= is_c2_reversed ? shift_c2 + m.relative_start(1) : shift_c2 + m.start(1);
 
+  unique_ptr<Match> tmp = make_unique<Match>(c1,c2,start_c1,is_c1_reversed!=m.is_reverse((unsigned)0),
+				       start_c2,is_c2_reversed!=m.is_reverse(1));
+  if(tmp->score*100/(float)tmp->length(0) >=data.percentage)
+    insert.push_back(move(tmp));
+
+}
 
 
 
@@ -104,6 +118,24 @@ void update_match(Data &data, Match &m, map<unsigned long,tuple<unsigned long,si
 }
 
 
+Contig* merge_full_match(Data &data, Match *m,map<unsigned long,tuple<unsigned long,size_t,bool>> &m_contig)
+{
+   bool reverse=m->is_reverse(0)!=m->is_reverse(1);
+   size_t shift;
+   Contig *c1, *c2;
+   if(m->is_full(1)){
+     c1 = m->contig((unsigned)0);
+      c2 = m->contig(1);
+      shift=m->projected_start(0);
+    } else {
+      c1 = m->contig(1);
+      c2 = m->contig((unsigned)0);
+      shift=m->projected_start(1);
+    } 
+   m_contig[c2->get_contig_id()]=make_tuple(ABSORBED,0,false);
+    
+    return c2;
+}
 
 vector<const Match*> merge_full_matches(Data &data,vector<const Match *> &selected_matches, vector<string> &trash,
 					map<unsigned long,tuple<unsigned long,size_t,bool>> &m_contig, set<unsigned long> &absorbent,
@@ -111,8 +143,6 @@ vector<const Match*> merge_full_matches(Data &data,vector<const Match *> &select
 {
   auto &new_set =data.assembly_sets[new_set_id];
 
-
-  cout << "Full:\n";
   vector<const Match*> other_matches;
   for(auto &m : selected_matches){
     if(!m->is_full((unsigned) 0) && !m->is_full(1)){
@@ -151,23 +181,61 @@ vector<const Match*> merge_full_matches(Data &data,vector<const Match *> &select
   
 }
 
+Contig* merge_non_full_match(Data &data, Match *m, pair<size_t,bool> &shift_c1, pair<size_t,bool> &shift_c2)
+{
+  Contig * c1 = m->contig((unsigned)0);
+  bool is_c1_reversed=m->is_reverse((unsigned)0);
+  unsigned long id_c1=c1->get_contig_id();
+
+  Contig * c2 = m->contig(1);
+  bool is_c2_reversed=m->is_reverse(1);
+  unsigned long id_c2=c2->get_contig_id();
+
+
+  unsigned relative_start_c1=is_c1_reversed ? c1->size()-1-m->projected_end((unsigned)0) :
+    is_c1_reversed!=m->is_reverse((unsigned)0)? m->contig((unsigned)0)->size()-m->start((unsigned)0) : m->start((unsigned)0);
+  unsigned relative_start_c2=is_c2_reversed ? c2->size()-1-m->projected_end(1) :
+    is_c2_reversed!=m->is_reverse(1)? m->contig(1)->size()-m->start(1) : m->start(1);//
+  m->start(1);
+
+
+  if(relative_start_c1>relative_start_c2) {
+    Contig * s = data.contigs.emplace(move(make_unique<Contig>(move(*c1),move(*c2),
+							       is_c1_reversed,
+							       is_c2_reversed,
+							       m->length(1),0, data.contig_id_count++))).first->get();
+    shift_c1 = make_pair(0, is_c1_reversed);
+    shift_c2 = make_pair(s->size()-c2->size(), is_c2_reversed);
+    return s;
+		      
+     
+
+  } 
+
+  Contig * s = data.contigs.emplace(move(make_unique<Contig>(move(*c2),move(*c1),
+							  is_c2_reversed, is_c1_reversed,
+							  m->length(1),
+							  0, data.contig_id_count++))).first->get();
+
+  shift_c1=make_pair(s->size()-c1->size(), is_c1_reversed);
+  shift_c2=make_pair(0, is_c2_reversed);
+  return s;
+
+
+
+}
 
 void merge_other_matches(Data &data, vector<const Match *> &selected_matches, vector<string> &trash,
 			 map<unsigned long,tuple<unsigned long,size_t, bool>>& m_contig,//map<Contig*,tuple<Contig*,size_t, bool>>& m_contig,
 			 unsigned new_set_id,unsigned set_id1,
 			 unsigned set_id2)
 {
-  cout << "Other:\n";
+
   unsigned it=1;
   auto &new_set =data.assembly_sets[new_set_id];
-  // cout << "New set: {";
-  // for(auto &c : new_set)
-  //   cout << "," << c->get_contig_id();
-  // cout << "}\n";
 
   for(auto &m : selected_matches){    
     Contig * c1 = m->contig((unsigned)0);
-    //    cout << it << "/" << selected_matches.size() << endl;
     it++;
     
     unsigned shift_c1=0;
@@ -218,8 +286,6 @@ void merge_other_matches(Data &data, vector<const Match *> &selected_matches, ve
      
       m_contig[c1->get_contig_id()]=make_tuple(s->get_contig_id(), 0, is_c1_reversed);
       m_contig[c2->get_contig_id()]=make_tuple(s->get_contig_id(), s->size()-c2->size(), is_c2_reversed);
-      // cout << id_c1 << "=>" << s->get_contig_id() << endl;
-      // cout << id_c2 << "=>" << s->get_contig_id() << endl;
      
       auto iter = new_set.find(c1->get_contig_id());
       if(iter!=new_set.end())
@@ -237,9 +303,6 @@ void merge_other_matches(Data &data, vector<const Match *> &selected_matches, ve
 
       m_contig[id_c2]=make_tuple(s->get_contig_id(), 0, is_c2_reversed);
       m_contig[id_c1]=make_tuple(s->get_contig_id(), s->size()-c1->size(), is_c1_reversed);
-      // cout << id_c1 << "=>" << s->get_contig_id() << endl;
-      // cout << id_c2 << "=>" << s->get_contig_id() << endl;
-
 
       auto iter = new_set.find(c1->get_contig_id());
       if(iter!=new_set.end())
@@ -250,7 +313,6 @@ void merge_other_matches(Data &data, vector<const Match *> &selected_matches, ve
       
     }
   }
-  //  cout << endl << endl << endl;
 }
 
 
@@ -260,8 +322,6 @@ void merge_match(Data &data, unsigned new_set_id,unsigned set_id1,
                  unsigned set_id2)
 {
   auto &selected_matches = get<2>(data.matches[set_id1][set_id2]);
-  cout<< set_id1<< ": " << data.assembly_sets[set_id1].size() << endl;
-  cout<< set_id2<< ": " << data.assembly_sets[set_id2].size() << endl;
   vector<string> trash;
   set<unsigned long> absorbent;
   map<unsigned long, tuple<unsigned long, size_t, bool>> m_contig;
@@ -273,20 +333,15 @@ void merge_match(Data &data, unsigned new_set_id,unsigned set_id1,
   // add contigs not selected in a match
   unsigned set_id[2] = {set_id1,set_id2};
   for(unsigned id : set_id){
-    unsigned c=0;
     for(auto it=data.assembly_sets[id].begin();it!=data.assembly_sets[id].end();++it){
       if(m_contig.find(it->get()->get_contig_id())==m_contig.end()){
-	c++;
-	//	if(absorbent.find(it->get()->get_contig_id())!=absorbent.end()){
-	  Contig * s = new_set.emplace(move(make_unique<Contig>(move(*(it->get())),new_set_id,data.contig_id_count++))).first->get();
+
+	Contig * s = new_set.emplace(move(make_unique<Contig>(move(*(it->get())),new_set_id,data.contig_id_count++))).first->get();
 	  m_contig[it->get()->get_contig_id()]=make_tuple(s->get_contig_id(), 0, false);
-	  //}
-	  //else m_contig[it->get()->get_contig_id()]=make_tuple(0, 0, false);
       }
     }
-    cout << id << ": " << c << endl;
   }
-  // exit(EXIT_SUCCESS);
+
   
   
   cout << "Update matches" << endl;
@@ -346,12 +401,15 @@ void merge_match(Data &data, unsigned new_set_id,unsigned set_id1,
   }
 }
 
-void merge_algorithm(Data &data){
+void merge_algorithm(Data &data, bool greedy){
 
   for(size_t i=0; i<data.ids.size();++i)
     for(size_t j=i+1;j<data.ids.size();++j){
       auto &m = data.matches[i][j];
-      get<1>(m) =  greedy_fill(get<2>(m),get<0>(m));
+      if(greedy)
+	get<1>(m) =  greedy_fill(get<2>(m),get<0>(m));
+      else
+	get<1>(m) =  algo_approx(get<2>(m),get<0>(m));
     }
 
   unsigned new_id=data.ids.size();
@@ -390,9 +448,61 @@ void merge_algorithm(Data &data){
     for(auto & a : data.assembly_sets){
       if(a.first==new_id) continue;
       auto &m = data.matches[a.first][new_id];
-      get<1>(m) =  greedy_fill(get<2>(m), get<0>(m));//algo(assembly_sets, get<0>(m));
+      if(greedy)
+	get<1>(m) =  greedy_fill(get<2>(m), get<0>(m));
+      else
+	get<1>(m) = algo_approx(get<2>(m), get<0>(m));
     }
     new_id++;
   }
-   
+}
+
+void merge_algorithm_general_greedy(Data &data)
+{
+  map<unsigned long, tuple<unsigned long, size_t, bool>> m_contig;
+
+  while(!data.all_matches.empty()){
+    const unique_ptr<Match> &p = *(data.all_matches.begin());
+    Match * m = data.all_matches.begin()->get();
+    if(m->is_full()){
+      Contig * c = merge_full_match(data, m, m_contig);
+      // remove matches containing the absorbed contig
+      for(auto it=next(data.all_matches.begin()), last=data.all_matches.end(); it != last;){	
+	if(it->get()->contains(c)) {
+	  it=data.all_matches.erase(it);
+	}
+	else ++it;
+      }
+      data.contigs.erase(data.contigs.find(c->get_contig_id()));
+    }
+    else {
+      pair<size_t,bool> shift_c1,shift_c2;
+      Contig * c = merge_non_full_match(data, m,shift_c1,shift_c2);
+      vector<unique_ptr<Match>> insert;
+      for(auto it=next(data.all_matches.begin()), last = data.all_matches.end(); it != last;){
+	Match * m2 = it->get();
+	unsigned y=0;
+	if(it->get()->contains(m->contig((unsigned)0))  
+	   && it->get()->contains(m->contig(1))){
+	  it=data.all_matches.erase(it);
+	}
+	else if(it->get()->contains(m->contig((unsigned)0))){
+	  update_match(data,*it->get(),shift_c1,m->contig((unsigned)0),c,insert);
+	  it=data.all_matches.erase(it);
+	  
+	}
+	else if(it->get()->contains(m->contig(1))){
+	  update_match(data,*it->get(),shift_c2,m->contig(1),c,insert);
+	  it=data.all_matches.erase(it);
+	}
+	else ++it;
+      }
+      for(auto &u : insert){
+	data.all_matches.insert(move(u));
+      }
+      data.contigs.erase(data.contigs.find(m->contig((unsigned)0)->get_contig_id()));
+      data.contigs.erase(data.contigs.find(m->contig(1)->get_contig_id()));
+    }
+    data.all_matches.erase(data.all_matches.find(p));
+  }
 }

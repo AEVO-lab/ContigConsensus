@@ -1,6 +1,33 @@
-#include "merge_contigs.cpp"
+#pragma once
+
+#include <iostream>
+#include <map>
+
+#include "Contig.h"
+#include "Hungarian_algo.hpp"
+#include "Match.h"
+#include "Parser.hpp"
+#include "MatchesPerContig.hpp"
+#include "Nucleotide.h"
 
 using namespace std;
+
+unsigned greedy_fill(vector<const Match*>& selected_matches, vector<Match>& all_matches){
+
+  unsigned added_score=0;
+  sort(all_matches.begin(),all_matches.end(),[](const Match &m1, const Match& m2){
+    return m1.score>m2.score;
+   });
+
+  for(Match & m : all_matches){
+    if (!m.intersect(selected_matches)) {
+      selected_matches.push_back(&m);
+      added_score += m.score;
+    }
+  }
+  return added_score;
+}
+
 
 queue<const Match*> construct_BEO(Match::SortedLengthSet& matches)
 {
@@ -118,21 +145,11 @@ vector<const Match*> greedy_maximum_matching(const Match::MM_map& matches, unsig
   return rtrn;
 }
 
-pair<vector<const Match*>,unsigned> algo(AssemblySet &assembly_sets, vector<Match> &all_matches, unsigned id_set1=1, unsigned id_set2=2)
+unsigned algo_approx(vector<const Match*>& selected_matches, vector<Match>& all_matches)
 {
   Match::MM_map max_matches;
   unsigned maximum_value=0;
 
-
-  // cout << "Compute Greedy" << endl;
-  // vector<const Match*> selected_matches_best;
-  // cout << "Sort:\n";
-  // sort(all_matches.begin(),all_matches.end(),[](const Match &m1, const Match& m2){
-  //   return m1.score>m2.score;
-  // });
-  
-  // unsigned score_max = greedy_fill(selected_matches_best, all_matches);
-  // cout << "Score greedy: " <<score_max <<endl;
 
   vector<const Match*> selected_matches_best;
   unsigned score_max=0;
@@ -140,21 +157,15 @@ pair<vector<const Match*>,unsigned> algo(AssemblySet &assembly_sets, vector<Matc
   vector<const Match*> selected_matches_tmp;
   
   for(unsigned i=0;i<2;++i){
-    cout << "Filter matches (type " << i <<")\n";
+  
     auto m = Match::match_filter(i, all_matches);
-    cout << "Done!\n";
-
-    cout << "Construct BEO\n";
     auto beo = construct_BEO(m);
-    cout << "Done!\n";
+  
 
     score_tmp=0;
     selected_matches_tmp = local_ratio(beo,score_tmp);
 
-    cout << "Score: " << score_tmp <<endl;
     score_tmp+= greedy_fill(selected_matches_tmp, all_matches);
-    cout << "Score after greedy fill: " << score_tmp <<endl;
-
     if(score_tmp>score_max){
       score_max=score_tmp;
       selected_matches_best=move(selected_matches_tmp);
@@ -178,17 +189,14 @@ pair<vector<const Match*>,unsigned> algo(AssemblySet &assembly_sets, vector<Matc
   score_tmp=0;
   
   selected_matches_tmp = greedy_maximum_matching(max_matches, score_tmp);  //hungarian_algorithm(S, T, max_matches, maximum_value,score_m3);
-  cout << "Hungarian algorithm done\n";
-
-  cout << "Score maximum matching: " << score_tmp <<endl;
   score_tmp+= greedy_fill(selected_matches_tmp, all_matches);
-  cout << "\nScore 3 after greedy fill: " << score_tmp <<endl;
+  
 
   if(score_tmp>score_max){
     score_max=score_tmp;
     selected_matches_best=move(selected_matches_tmp);
   }
 
-
-  return make_pair(selected_matches_best,score_max);
+  selected_matches=move(selected_matches_best);
+  return score_max;
 }

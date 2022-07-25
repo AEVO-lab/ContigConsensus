@@ -53,15 +53,10 @@ struct Match
 
   Match(Contig *c1, Contig *c2, size_t initial_start_c1, bool is_c1_reversed, size_t initial_start_c2, bool is_c2_reversed) : score(0)
   {
-
-    // cout <<"Match with: " << *c1 << " and " << *c2 << endl;
-    // cout <<"Parameters: " << initial_start_c1 << "|" << is_c1_reversed << "|" << initial_start_c2 << "|" << is_c2_reversed << endl;
     size_t tail_c1=initial_start_c1, head_c1 = initial_start_c1,
       tail_c2=initial_start_c2, head_c2=initial_start_c2;
 
     do{
-      // cout << "tail_c1:" << tail_c1 << ":"<< (char)c1->getNuc(tail_c1)
-      // 	   << " tail_c2:" << tail_c2 << ":"<< (char)c2->getNuc(tail_c2)<< endl;
       score+=c1->getNuc(tail_c1)==c2->getNuc(tail_c2);
       tail_c1 = is_c1_reversed ? tail_c1-1 : tail_c1+1;
       tail_c2 = is_c2_reversed ? tail_c2-1 : tail_c2+1;
@@ -74,8 +69,6 @@ struct Match
     head_c1 = is_c1_reversed ? head_c1+1 : head_c1-1;
     head_c2 = is_c2_reversed ? head_c2+1 : head_c2-1;
     while(head_c1<c1->size() && head_c2<c2->size()){
-      // cout << "head_c1:" << head_c1 << ":"<< (char)c1->getNuc(head_c1)
-      // 	   << " head_c2:" << head_c2 << ":"<< (char)c2->getNuc(head_c2)<< endl;
 
       score+=c1->getNuc(head_c1).is_equal(c2->getNuc(head_c2),is_c1_reversed!=is_c2_reversed);
       head_c1 = is_c1_reversed ? head_c1+1 : head_c1-1;
@@ -95,8 +88,6 @@ struct Match
     contigs[b].contig=c2;
     contigs[b].start=head_c2;
     contigs[b].end=tail_c2;
-
-    //      display_contig_names();
   }
 
 
@@ -167,8 +158,6 @@ struct Match
 
   bool intersect(const Match * m) const
   {
-    // if(contig((unsigned)0)->get_set_id()!=m->contig((unsigned)0)->get_set_id() &&
-    //    contig((unsigned)0)->get_set_id()!=m->contig((unsigned)0)->get_set_id())
     if(this->contig((unsigned)0)==m->contig((unsigned)0) && this->contig(1)==m->contig(1))
       return true;
 
@@ -295,42 +284,17 @@ typedef map<
 
 bool operator<(const unique_ptr<Match> &m1, const unique_ptr<Match> &m2)
 {
-  if(m1->score==m2->score){
-    if(m1->contig((unsigned)0)->get_contig_id()==m2->contig((unsigned)0)->get_contig_id()){
-      return m1->contig(1)->get_contig_id()<m2->contig(1)->get_contig_id();
+  if((float)m1->score*m1->score/m1->length(0)==(float)m2->score*m2->score/m2->length(0)){
+    if(m1->score==m2->score){
+      if(m1->contig((unsigned)0)->get_contig_id()==m2->contig((unsigned)0)->get_contig_id()){
+	return m1->contig(1)->get_contig_id()<m2->contig(1)->get_contig_id();
+      }
+      else return m1->contig((unsigned)0)->get_contig_id()<m2->contig((unsigned)0)->get_contig_id();
     }
-    else return m1->contig((unsigned)0)->get_contig_id()<m2->contig((unsigned)0)->get_contig_id();
+    return m1->score>m2->score;
   }
-  return m1->score>m2->score;
+  return (float)m1->score*m1->score/m1->length(0)>(float)m2->score*m2->score/m2->length(0);
 }
-
-
-// ostream &operator<<(ostream& os, const Match& m)
-// {
-//   auto f = max((size_t)22,max(m.start(1)+m.contig(0)->size(),m.start(0)+m.contig(1)->size()));
-//   std::cout << endl << string(f,'-')<<endl;
-//   cout << /*"Len: " <<m.length<<*/ " - Score: "<< m.score <<"\n";
-//   std::cout << string(f,'=')<<endl;
-
-//   for(int c : {0,1}){
-//     if(m.is_reverse(c)) cout << "R| ";
-//     else cout << " | ";
-//     std::cout << string(m.start((c+1)%2),' ');
-//     for (int i = 0; i < m.contig(c)->size(); i++) {
-//       if (i >= m.start(c) && i < m.start(c) + m.length) {
-// 	if(m.contig(c)->at(i)==m.contig((c+1)%2)->at(i+m.start((c+1)%2)-m.start(c)))
-// 	  cout << "\033[1;32m";
-//         else cout << "\033[1;31m";
-//       }
-
-//       cout << (char)m.contig(c)->at(i, m.is_reverse(c));
-//       cout << "\033[0m";
-//     }
-//     cout << endl;
-//   }
-//   std::cout << string(f,'=')<<endl;
-//   return os;
-// }
 
 
 

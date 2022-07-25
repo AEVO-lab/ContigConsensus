@@ -98,7 +98,7 @@ struct  Options {
 	  cout << "                    Available options:\n";
 	  cout << "                    greedy_pairwise, approx, greedy_general (default)\n";
 	  cout << "--percentage  -e:   percentage minimum of correspondance in a match\n";
-	  cout << "--pairwise    -p:   generate a result for each pair of input fasta file\n";
+	  cout << "--pairwise    -p:   generate a result for each pair of input fasta file (broken for now)\n";
 	  cout << "--genmatch    -g:   generate matches files with blastn\n";
 	  cout << "--prioritize    :   todo\n";
 	  cout << endl;

@@ -18,7 +18,7 @@ using namespace std;
 class Contig
 {
   friend ostream& operator<<(ostream&, const Contig&);
-  friend void write_contig(ostream&, const Contig&,unsigned,bool,bool);
+  // friend void write_contig(ostream&, const Contig&,unsigned,bool,bool);
 private:
 
   vector<Nuc> sequence;
@@ -119,11 +119,18 @@ public:
     //c.display_sequence();
 
     if(!reverse){
+      for(auto &C : c.component_contigs)
+	component_contigs.emplace_back(C.contig_size,C.name,C.set_id,shift+C.shift,C.is_reversed);
+      
       for(unsigned i=0; i<c.size(); ++i){	  
 	sequence[i+shift]+=c.sequence[i];
       }
     }
     else {
+      for(auto &C : c.component_contigs)
+	component_contigs.emplace_back(C.contig_size,C.name,C.set_id,shift+c.sequence_size-1-C.shift,!C.is_reversed);
+
+      
 
       for(unsigned i=0; i<c.size(); ++i){
 	sequence[i+shift]+=c.sequence[c.sequence_size-1-i].reverse();
@@ -224,6 +231,116 @@ public:
   vector<Component>& getComponent() {
     return component_contigs;
   }
+
+  void write_contig_with_filter(ostream& os, unsigned id, bool random_when_tie, size_t size_filter, unsigned minimum_score=2)
+  {
+    
+    if(!prioritize) return;
+    char c = 'A';
+    unsigned length=0;
+    bool empty=true, cut=false;
+    os << ">" << name << "_" << c << endl;
+    for(unsigned start=0, end=0;end<sequence_size;end++){
+      //      cout << start << "-" << end << endl;
+      Nuc & n = sequence[end];
+      if(n.score()>=1){
+	if(!cut){
+	  //  cout << endl;
+	  for(unsigned i=start;i<=end;i++){
+	    os<<(char)n;
+	    empty=false;
+	    length++;
+	    if(length==99){
+	      length=0;
+	      os << "\n";
+	    }
+	  }
+	}
+	start=end+1;
+      }
+      if(n.score()==0) {
+	cout << (char)n << " is filtered\n";
+      }
+      
+      if(cut && n.score()>=1){
+	if(length!=0)  os << "\n";
+	length=0;
+	if(!empty){
+	  c++;
+	  os << ">" << name << "_" << c << endl;
+	}
+	empty=true;
+	start=end+1;
+      }
+      cut=end+1-start>size_filter;
+    }
+    if(length!=0) os << "\n";
+  }
+
+  void write_contig_debug(ostream& os, unsigned id, bool random_when_tie, size_t size_filter, unsigned minimum_score=2)
+  {
+    
+    if(!prioritize) return;
+    char c = 'A';
+    unsigned length=0;
+    bool empty=true, cut=false;
+    os << ">" << name << "_" << c << endl;
+    for(unsigned start=0, end=0;end<sequence_size;end++){
+      //      cout << start << "-" << end << endl;
+      Nuc & n = sequence[end];
+      if(n.score()>=1){
+	if(!cut){
+	  //  cout << endl;
+	  for(unsigned i=start;i<=end;i++){
+	    os<<(char)n;
+	    n.display();
+	    empty=false;
+	    length++;
+	    if(length==99){
+	      length=0;
+	      os << "\n";
+	    }
+	  }
+	}
+	start=end+1;
+      }
+      // if(n.score()==0) {
+      // 	cout << (char)n << " is filtered\n";
+      // }
+      
+      if(cut && n.score()>=1){
+	if(length!=0)  os << "\n";
+	length=0;
+	if(!empty){
+	  c++;
+	  os << ">" << name << "_" << c << endl;
+	}
+	empty=true;
+	start=end+1;
+      }
+      cut=end+1-start>size_filter;
+    }
+    if(length!=0) os << "\n";
+  }
+
+
+  void write_contig(ostream& os, unsigned id, bool random_when_tie, bool prior)
+  {
+    if(prior && !prioritize) return;
+    //os << ">"<< id << "_" << contig.size() << "_" << contig.sequence.size() << endl;// << contig.name << endl;
+    os << ">" << name << endl;
+    unsigned length=0;
+    for(Nuc c : sequence){
+      //if((char)c=='N') continue;
+      os<<(char)c;
+      length++;
+      if(length==99){
+	length=0;
+	os << "\n";
+      }
+    }
+    os << endl;
+  }
 };
 
 
@@ -274,22 +391,22 @@ inline ostream &operator<<(ostream& os, const Contig& contig)
 }
 
 
-void write_contig(ostream& os, const Contig& contig,unsigned id, bool random_when_tie, bool prioritize)
-{
-  if(prioritize && !contig.prioritize) return;
-  //os << ">"<< id << "_" << contig.size() << "_" << contig.sequence.size() << endl;// << contig.name << endl;
-  os << ">" << contig.name << endl;
-  unsigned tmp=0;
-  unsigned length=0;
-  for(Nuc c : contig.sequence){
-    //if((char)c=='N') continue;
-    os<<(char)c;
-    length++;
-    if(length==99){
-      length=0;
-      os << "\n";
-    }
-  }
-  os << endl;
-}
+// void write_contig(ostream& os, const Contig& contig, unsigned id, bool random_when_tie, bool prioritize)
+// {
+//   if(prioritize && !contig.prioritize) return;
+//   //os << ">"<< id << "_" << contig.size() << "_" << contig.sequence.size() << endl;// << contig.name << endl;
+//   os << ">" << contig.name << endl;
+//   unsigned tmp=0;
+//   unsigned length=0;
+//   for(Nuc c : contig.sequence){
+//     //if((char)c=='N') continue;
+//     os<<(char)c;
+//     length++;
+//     if(length==99){
+//       length=0;
+//       os << "\n";
+//     }
+//   }
+//   os << endl;
+// }
 
